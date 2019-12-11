@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Propriétaire\Desktop\Session Wwise - Nano Projet 1\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Propriétaire\Desktop\Session Wwise - Nano Projet 1\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Propriétaire\Desktop\Session Wwise - Nano Projet 1\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Propriétaire\Desktop\Session Wwise - Nano Projet 1\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3045981741" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\NanoProjet</ObjectPath>
+			<ShortName>NanoProjet</ShortName>
+			<Path>NanoProjet.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3654873777" Name="Ambience_menu" ObjectPath="\Events\Default Work Unit\Ambience_menu" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2227419164" Name="Music_End" ObjectPath="\Events\Default Work Unit\Music_End" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1598298728" Name="Music_menu" ObjectPath="\Events\Default Work Unit\Music_menu" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" DurationType="Infinite"/>
+				<Event Id="799872408" Name="SFX_Deplacements" ObjectPath="\Events\Default Work Unit\SFX_Deplacements" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="78828263" Language="SFX">
+					<ShortName>Combat_rapproché_phase_2_first.wav</ShortName>
+					<Path>SFX\Combat_rapproché_phase_2_first_B587EF35.wem</Path>
+				</File>
+				<File Id="109809174" Language="SFX">
+					<ShortName>Combat_rapproché_phase_1_loop_1.wav</ShortName>
+					<Path>SFX\Combat_rapproché_phase_1_loop_1_B587EF35.wem</Path>
+				</File>
+				<File Id="123303757" Language="SFX">
+					<ShortName>Combat_rapproché_phase_1_loop_4.wav</ShortName>
+					<Path>SFX\Combat_rapproché_phase_1_loop_4_B587EF35.wem</Path>
+				</File>
+				<File Id="143143403" Language="SFX">
+					<ShortName>Combat_à_distance_loop_1.wav</ShortName>
+					<Path>SFX\Combat_à_distance_loop_1_B587EF35.wem</Path>
+				</File>
+				<File Id="200382848" Language="SFX">
+					<ShortName>Combat_à_distance.wav</ShortName>
+					<Path>SFX\Combat_à_distance_B587EF35.wem</Path>
+				</File>
+				<File Id="330565395" Language="SFX">
+					<ShortName>MACK Effect Reverse Cymbal.wav</ShortName>
+					<Path>SFX\MACK Effect Reverse Cymbal_B587EF35.wem</Path>
+				</File>
+				<File Id="350248293" Language="SFX">
+					<ShortName>QP02 0247 Wind desert soft variable over flat lava bed.wav</ShortName>
+					<Path>SFX\QP02 0247 Wind desert soft variable over flat lava bed_49718417.wem</Path>
+				</File>
+				<File Id="486513286" Language="SFX">
+					<ShortName>Combat_rapproché_phase_2_loop_1.wav</ShortName>
+					<Path>SFX\Combat_rapproché_phase_2_loop_1_B587EF35.wem</Path>
+				</File>
+				<File Id="506201386" Language="SFX">
+					<ShortName>Combat_rapproché_phase_1_loop_2_(variation_1).wav</ShortName>
+					<Path>SFX\Combat_rapproché_phase_1_loop_2_(variation_1)_B587EF35.wem</Path>
+				</File>
+				<File Id="511341876" Language="SFX">
+					<ShortName>craquements_glace_déplacement.wav</ShortName>
+					<Path>SFX\craquements_glace_déplacement_B587EF35.wem</Path>
+				</File>
+				<File Id="539152739" Language="SFX">
+					<ShortName>Introduction.wav</ShortName>
+					<Path>SFX\Introduction_B587EF35.wem</Path>
+				</File>
+				<File Id="595057892" Language="SFX">
+					<ShortName>Combat_rapproché_phase_2_break.wav</ShortName>
+					<Path>SFX\Combat_rapproché_phase_2_break_B587EF35.wem</Path>
+				</File>
+				<File Id="676877655" Language="SFX">
+					<ShortName>Fin du combat.wav</ShortName>
+					<Path>SFX\Fin du combat_B587EF35.wem</Path>
+				</File>
+				<File Id="705106200" Language="SFX">
+					<ShortName>Combat_augmentation_de_la_tension.wav</ShortName>
+					<Path>SFX\Combat_augmentation_de_la_tension_B587EF35.wem</Path>
+				</File>
+				<File Id="822797860" Language="SFX">
+					<ShortName>vent_léger_d_hiver_glace.wav</ShortName>
+					<Path>SFX\vent_léger_d_hiver_glace_B587EF35.wem</Path>
+				</File>
+				<File Id="826111828" Language="SFX">
+					<ShortName>Combat_rapproché_phase_1_loop_3.wav</ShortName>
+					<Path>SFX\Combat_rapproché_phase_1_loop_3_B587EF35.wem</Path>
+				</File>
+				<File Id="831152742" Language="SFX">
+					<ShortName>Combat_augmentation_de_la_tension_loop_1.wav</ShortName>
+					<Path>SFX\Combat_augmentation_de_la_tension_loop_1_B587EF35.wem</Path>
+				</File>
+				<File Id="854917812" Language="SFX">
+					<ShortName>Spotlight Stadium - Reverb.wav</ShortName>
+					<Path>SFX\Spotlight Stadium - Reverb_10C4C929.wem</Path>
+				</File>
+				<File Id="890481524" Language="SFX">
+					<ShortName>Shimmering Orbs.wav</ShortName>
+					<Path>SFX\Shimmering Orbs_B587EF35.wem</Path>
+				</File>
+				<File Id="938373526" Language="SFX">
+					<ShortName>ambiance_lac_glacé_hiver.wav</ShortName>
+					<Path>SFX\ambiance_lac_glacé_hiver_B587EF35.wem</Path>
+				</File>
+				<File Id="958299482" Language="SFX">
+					<ShortName>Combat_rapproché_phase_2_loop_2.wav</ShortName>
+					<Path>SFX\Combat_rapproché_phase_2_loop_2_B587EF35.wem</Path>
+				</File>
+				<File Id="1037076125" Language="SFX">
+					<ShortName>Dash Sound.wav</ShortName>
+					<Path>SFX\Dash Sound_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

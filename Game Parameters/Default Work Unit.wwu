@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C38A2F69-AED0-42FC-8093-BF9A821F6FF3}" SchemaVersion="94">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{C38A2F69-AED0-42FC-8093-BF9A821F6FF3}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_PlayersDistancce" ID="{DC2119AB-4479-499F-8661-7C0B205CB09A}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Timer" ID="{BF1D3EC3-5DF5-43D2-8F56-ADFECA8B8C33}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

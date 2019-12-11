@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3A75E5D5-2923-41DA-AD76-5CA003FD718E}" SchemaVersion="94">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{3A75E5D5-2923-41DA-AD76-5CA003FD718E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="NanoProjet" ID="{32DB7BA1-FF4B-4BD1-AB12-D03BE6366983}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Character" ID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="UI" ID="{5443D3BC-5B21-4984-B003-2A9804103E2F}" WorkUnitID="{5443D3BC-5B21-4984-B003-2A9804103E2F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Interactive_Music" ID="{FD747C4D-A190-499F-BBDF-3B6AFED41BA3}" WorkUnitID="{FD747C4D-A190-499F-BBDF-3B6AFED41BA3}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Environment" ID="{AE14C397-6194-4CB4-AC29-46AC664B1122}" WorkUnitID="{AE14C397-6194-4CB4-AC29-46AC664B1122}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Default Work Unit" ID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}" WorkUnitID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

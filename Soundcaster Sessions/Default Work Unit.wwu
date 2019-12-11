@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{131205F1-42A8-4C7E-A1FF-771C7284A16C}" SchemaVersion="94">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{131205F1-42A8-4C7E-A1FF-771C7284A16C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Blood_On_Ice" ID="{5C7D9733-2C4A-44D3-83E5-54DCD4F4EEE6}">
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Timer" ID="{BF1D3EC3-5DF5-43D2-8F56-ADFECA8B8C33}"/>
+							<Value>1.13488000277566E-311</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_PlayersDistancce" ID="{DC2119AB-4479-499F-8661-7C0B205CB09A}"/>
+							<Value>39</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{B6BAB8AD-F8EF-442B-96BF-6F0ED20130DE}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="End_Combat" ID="{CEA84FB5-9D38-466D-AE2A-31C27CA77DC6}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Music" ID="{20C34E21-7386-400B-9265-372035F45F32}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Music" ID="{A9FE7E6F-D837-40BE-B58C-289310C1B8B0}" WorkUnitID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Timer" ID="{BF1D3EC3-5DF5-43D2-8F56-ADFECA8B8C33}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_PlayersDistancce" ID="{DC2119AB-4479-499F-8661-7C0B205CB09A}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="End_Combat" ID="{CEA84FB5-9D38-466D-AE2A-31C27CA77DC6}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

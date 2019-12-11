@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Music_menu" ID="{0AF9B93A-A873-4417-AA28-21EE5291D18E}"/>
+				<Event Name="Ambience_menu" ID="{0AAD2860-EBD6-471F-86FD-BE057E6C5B40}"/>
+				<Event Name="SFX_Deplacements" ID="{EE03D5FC-9F6C-4C67-9195-ADF63FAE2078}">
+					<ChildrenList>
+						<Action Name="" ID="{8D012549-FE48-49D0-A02D-702EFD1439CB}" ShortID="682622373">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Deplacements" ID="{82F05E4F-84AB-4564-8A2F-00317058EC70}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music_End" ID="{86AF2193-A8C0-4242-9440-31F8EA69625E}">
+					<ChildrenList>
+						<Action Name="" ID="{29593F61-FD85-4AB0-907F-B0D09E2D9DC2}" ShortID="36670405">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="End_Combat" ID="{CEA84FB5-9D38-466D-AE2A-31C27CA77DC6}" WorkUnitID="{B8F666C0-A129-4E51-8B39-018B5D7D18A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Music" ID="{A9FE7E6F-D837-40BE-B58C-289310C1B8B0}">
+					<ChildrenList>
+						<Action Name="" ID="{70450067-0A67-4E4E-BCB1-599BF6880C48}" ShortID="75121800">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{87AC52AC-717A-4716-9998-A19CC5434DBE}" WorkUnitID="{FD747C4D-A190-499F-BBDF-3B6AFED41BA3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C8C806A7-8CDB-4E6D-9B3F-621079A73E31}" ShortID="920593331">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Start_Combat" ID="{516C04A4-6F75-4B1A-B981-7B6CEB7A66BE}" WorkUnitID="{B8F666C0-A129-4E51-8B39-018B5D7D18A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
