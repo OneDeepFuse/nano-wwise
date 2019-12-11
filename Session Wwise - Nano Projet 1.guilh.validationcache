@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="94">
+	<ValidationCacheItem File="D:\Users\guilh\Unity\nano-wwise\Actor-Mixer Hierarchy\Character.wwu" DateLow="1576057497" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\guilh\Unity\nano-wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1576057497" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\guilh\Unity\nano-wwise\Actor-Mixer Hierarchy\Environment.wwu" DateLow="1576057497" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\guilh\Unity\nano-wwise\Actor-Mixer Hierarchy\UI.wwu" DateLow="1576057497" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\guilh\Unity\nano-wwise\Attenuations\Default Work Unit.wwu" DateLow="1576057497" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\guilh\Unity\nano-wwise\Audio Devices\Default Work Unit.wwu" DateLow="1576057497" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\guilh\Unity\nano-wwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="1576057497" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\guilh\Unity\nano-wwise\Conversion Settings\Default Work Unit.wwu" DateLow="1576057497" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\guilh\Unity\nano-wwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1576057497" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\guilh\Unity\nano-wwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1576057497" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\guilh\Unity\nano-wwise\Effects\Default Work Unit.wwu" DateLow="1576057497" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\guilh\Unity\nano-wwise\Effects\Factory Effects.wwu" DateLow="1576057497" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\guilh\Unity\nano-wwise\Events\Default Work Unit.wwu" DateLow="1576057497" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\guilh\Unity\nano-wwise\Game Parameters\Default Work Unit.wwu" DateLow="1576057497" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\guilh\Unity\nano-wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1576057497" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\guilh\Unity\nano-wwise\Interactive Music Hierarchy\Interactive_Music.wwu" DateLow="1576057497" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\guilh\Unity\nano-wwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1576057497" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\guilh\Unity\nano-wwise\Mixing Sessions\Default Work Unit.wwu" DateLow="1576057497" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\guilh\Unity\nano-wwise\Modulators\Default Work Unit.wwu" DateLow="1576057497" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\guilh\Unity\nano-wwise\Presets\Default Work Unit.wwu" DateLow="1576057498" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\guilh\Unity\nano-wwise\Queries\Default Work Unit.wwu" DateLow="1576057498" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\guilh\Unity\nano-wwise\Queries\Factory Queries.wwu" DateLow="1576057498" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\guilh\Unity\nano-wwise\Session Wwise - Nano Projet 1.wproj" DateLow="1576057498" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\guilh\Unity\nano-wwise\SoundBanks\Default Work Unit.wwu" DateLow="1576057498" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\guilh\Unity\nano-wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1576057498" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\guilh\Unity\nano-wwise\States\Default Work Unit.wwu" DateLow="1576057498" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\guilh\Unity\nano-wwise\Switches\Default Work Unit.wwu" DateLow="1576057498" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\guilh\Unity\nano-wwise\Triggers\Default Work Unit.wwu" DateLow="1576057498" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Users\guilh\Unity\nano-wwise\Virtual Acoustics\Default Work Unit.wwu" DateLow="1576057498" DateHigh="0"/>
+</ValidationCache>

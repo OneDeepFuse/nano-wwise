@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Propriétaire\Desktop\Session Wwise - Nano Projet 1\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Propriétaire\Desktop\Session Wwise - Nano Projet 1\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Propriétaire\Desktop\Session Wwise - Nano Projet 1\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\Users\guilh\Unity\nano-wwise\</ProjectRoot>
+		<SourceFilesRoot>D:\Users\guilh\Unity\nano-wwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Users\guilh\Unity\nano-wwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Propriétaire\Desktop\Session Wwise - Nano Projet 1\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Users\guilh\Unity\nano-wwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
