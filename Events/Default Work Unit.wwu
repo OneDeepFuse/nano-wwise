@@ -3,9 +3,32 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Music_menu" ID="{0AF9B93A-A873-4417-AA28-21EE5291D18E}"/>
-				<Event Name="Ambience_menu" ID="{0AAD2860-EBD6-471F-86FD-BE057E6C5B40}"/>
+				<Event Name="Music_menu" ID="{0AF9B93A-A873-4417-AA28-21EE5291D18E}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="16"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Event>
+				<Event Name="Ambience" ID="{0AAD2860-EBD6-471F-86FD-BE057E6C5B40}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="5"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{B3B39AC4-1CEE-4355-BAA6-6F840F82047E}" ShortID="494246571">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambience" ID="{323588D4-A1B0-4666-93D3-9C6087005DF6}" WorkUnitID="{AE14C397-6194-4CB4-AC29-46AC664B1122}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="SFX_Deplacements" ID="{EE03D5FC-9F6C-4C67-9195-ADF63FAE2078}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="24"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{8D012549-FE48-49D0-A02D-702EFD1439CB}" ShortID="682622373">
 							<ReferenceList>
@@ -17,6 +40,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Music_End" ID="{86AF2193-A8C0-4242-9440-31F8EA69625E}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="16"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{29593F61-FD85-4AB0-907F-B0D09E2D9DC2}" ShortID="36670405">
 							<PropertyList>
@@ -31,6 +58,10 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Music" ID="{A9FE7E6F-D837-40BE-B58C-289310C1B8B0}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="16"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Action Name="" ID="{70450067-0A67-4E4E-BCB1-599BF6880C48}" ShortID="75121800">
 							<ReferenceList>
@@ -46,6 +77,36 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Start_Combat" ID="{516C04A4-6F75-4B1A-B981-7B6CEB7A66BE}" WorkUnitID="{B8F666C0-A129-4E51-8B39-018B5D7D18A1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Dash_Attack" ID="{37149E2C-0F85-436D-BF55-827AB38B6B84}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="24"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{31FF60A4-724A-47D7-A736-245CDAEB2A0D}" ShortID="914026243">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dash_attack" ID="{0AC475C1-716F-4304-8B70-B90CCD153A8F}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Spotlight_on" ID="{11C1CE46-7375-4650-8546-8E4DF27A2730}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{A5B9E837-ABEB-47D6-9A89-8E4C1A337B20}" ShortID="763072980">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spotlight_on" ID="{B7E61542-0F7A-44EE-BAE5-9FF8AEBEF7A3}" WorkUnitID="{AE14C397-6194-4CB4-AC29-46AC664B1122}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

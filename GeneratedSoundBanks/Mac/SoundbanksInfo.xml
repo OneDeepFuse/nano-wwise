@@ -21,11 +21,13 @@
 			<ShortName>NanoProjet</ShortName>
 			<Path>NanoProjet.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3654873777" Name="Ambience_menu" ObjectPath="\Events\Default Work Unit\Ambience_menu" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="85412153" Name="Ambience" ObjectPath="\Events\Default Work Unit\Ambience" DurationType="Infinite"/>
+				<Event Id="622818416" Name="Dash_Attack" ObjectPath="\Events\Default Work Unit\Dash_Attack" DurationType="OneShot" DurationMin="1.386667" DurationMax="1.386667"/>
 				<Event Id="2227419164" Name="Music_End" ObjectPath="\Events\Default Work Unit\Music_End" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1598298728" Name="Music_menu" ObjectPath="\Events\Default Work Unit\Music_menu" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" DurationType="Infinite"/>
-				<Event Id="799872408" Name="SFX_Deplacements" ObjectPath="\Events\Default Work Unit\SFX_Deplacements" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000"/>
+				<Event Id="799872408" Name="SFX_Deplacements" ObjectPath="\Events\Default Work Unit\SFX_Deplacements" DurationType="OneShot" DurationMin="1.083396" DurationMax="1.541646"/>
+				<Event Id="2290831937" Name="Spotlight_on" ObjectPath="\Events\Default Work Unit\Spotlight_on" DurationType="OneShot" DurationMin="1.045333" DurationMax="1.045333"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="78828263" Language="SFX">
@@ -47,6 +49,10 @@
 				<File Id="200382848" Language="SFX">
 					<ShortName>Combat_à_distance.wav</ShortName>
 					<Path>SFX\Combat_à_distance_B587EF35.wem</Path>
+				</File>
+				<File Id="278632071" Language="SFX">
+					<ShortName>Anim_Deplacement_Pair_Variation_1.wav</ShortName>
+					<Path>SFX\Anim_Deplacement_Pair_Variation_1_10C4C929.wem</Path>
 				</File>
 				<File Id="330565395" Language="SFX">
 					<ShortName>MACK Effect Reverse Cymbal.wav</ShortName>
@@ -111,6 +117,10 @@
 				<File Id="958299482" Language="SFX">
 					<ShortName>Combat_rapproché_phase_2_loop_2.wav</ShortName>
 					<Path>SFX\Combat_rapproché_phase_2_loop_2_B587EF35.wem</Path>
+				</File>
+				<File Id="973771924" Language="SFX">
+					<ShortName>Anim_Deplacement_Impair_Variation_1.wav</ShortName>
+					<Path>SFX\Anim_Deplacement_Impair_Variation_1_10C4C929.wem</Path>
 				</File>
 				<File Id="1037076125" Language="SFX">
 					<ShortName>Dash Sound.wav</ShortName>

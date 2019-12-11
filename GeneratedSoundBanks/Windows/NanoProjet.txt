@@ -1,9 +1,11 @@
 Event	ID	Name			Wwise Object Path	Notes
+	85412153	Ambience			\Default Work Unit\Ambience	
+	622818416	Dash_Attack			\Default Work Unit\Dash_Attack	
 	799872408	SFX_Deplacements			\Default Work Unit\SFX_Deplacements	
 	1598298728	Music_menu			\Default Work Unit\Music_menu	
 	2227419164	Music_End			\Default Work Unit\Music_End	
+	2290831937	Spotlight_on			\Default Work Unit\Spotlight_on	
 	2932040671	Play_Music			\Default Work Unit\Play_Music	
-	3654873777	Ambience_menu			\Default Work Unit\Ambience_menu	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	2963455281	Switch_Music			\Default Work Unit\Switch_Music	
@@ -12,16 +14,13 @@ Switch	ID	Name	Switch Group			Notes
 	1658298262	Start_Combat	Switch_Music			
 	4195088783	End_Combat	Switch_Music			
 
-Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
-	200909621	Wwise Sine	Wwise Sine		\Actor-Mixer Hierarchy\Character\Deplacements\Pair_Anim_partie_1\New Sound SFX\Wwise Sine	
-	232660451	Wwise Sine	Wwise Sine		\Actor-Mixer Hierarchy\Character\Deplacements\Impair_Anim_partie_2\New Sound SFX\Wwise Sine	
-
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	78828263	Combat_rapproché_phase_2_first	C:\Users\Propriétaire\Desktop\Session Wwise - Nano Projet 1\.cache\Windows\SFX\Combat_rapproché_phase_2_first_B587EF35.wem		\Interactive Music Hierarchy\Interactive_Music\Music\[01] Introduction\Combat_rapproché_phase_2_first\Combat_rapproché_phase_2_first		239914
 	109809174	Combat_rapproché_phase_1_loop_1	C:\Users\Propriétaire\Desktop\Session Wwise - Nano Projet 1\.cache\Windows\SFX\Combat_rapproché_phase_1_loop_1_B587EF35.wem		\Interactive Music Hierarchy\Interactive_Music\Music\[01] Introduction\Combat_rapproché_phase_1_loop_1\Combat_rapproché_phase_1_loop_1		169986
 	123303757	Combat_rapproché_phase_1_loop_4	C:\Users\Propriétaire\Desktop\Session Wwise - Nano Projet 1\.cache\Windows\SFX\Combat_rapproché_phase_1_loop_4_B587EF35.wem		\Interactive Music Hierarchy\Interactive_Music\Music\[01] Introduction\Combat_rapproché_phase_1_loop_4\Combat_rapproché_phase_1_loop_4		216408
 	143143403	Combat_à_distance_loop_1	C:\Users\Propriétaire\Desktop\Session Wwise - Nano Projet 1\.cache\Windows\SFX\Combat_à_distance_loop_1_B587EF35.wem		\Interactive Music Hierarchy\Interactive_Music\Music\[01] Introduction\Combat_à_distance_loop_1\Combat_à_distance_loop_1		220670
 	200382848	Combat_à_distance	C:\Users\Propriétaire\Desktop\Session Wwise - Nano Projet 1\.cache\Windows\SFX\Combat_à_distance_B587EF35.wem		\Interactive Music Hierarchy\Interactive_Music\Music\[01] Introduction\Combat_à_distance\Combat_à_distance		247636
+	278632071	Anim_Deplacement_Pair_Variation_1	C:\Users\Propriétaire\Desktop\Session Wwise - Nano Projet 1\.cache\Windows\SFX\Anim_Deplacement_Pair_Variation_1_10C4C929.wem		\Actor-Mixer Hierarchy\Character\Deplacements\Pair_Anim_partie_1\Anim_Deplacement_Pair_Variation_1		296060
 	330565395	MACK Effect Reverse Cymbal	C:\Users\Propriétaire\Desktop\Session Wwise - Nano Projet 1\.cache\Windows\SFX\MACK Effect Reverse Cymbal_B587EF35.wem		\Interactive Music Hierarchy\Interactive_Music\Music\Transition\MACK Effect Reverse Cymbal		475046
 	350248293	QP02 0247 Wind desert soft variable over flat lava bed	C:\Users\Propriétaire\Desktop\Session Wwise - Nano Projet 1\.cache\Windows\SFX\QP02 0247 Wind desert soft variable over flat lava bed_49718417.wem		\Actor-Mixer Hierarchy\Environment\Ambience\QP02 0247 Wind desert soft variable over flat lava bed		1005627
 	486513286	Combat_rapproché_phase_2_loop_1	C:\Users\Propriétaire\Desktop\Session Wwise - Nano Projet 1\.cache\Windows\SFX\Combat_rapproché_phase_2_loop_1_B587EF35.wem		\Interactive Music Hierarchy\Interactive_Music\Music\[01] Introduction\Combat_rapproché_phase_2_loop_1\Combat_rapproché_phase_2_loop_1		353085
@@ -38,5 +37,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	890481524	Shimmering Orbs	C:\Users\Propriétaire\Desktop\Session Wwise - Nano Projet 1\.cache\Windows\SFX\Shimmering Orbs_B587EF35.wem		\Actor-Mixer Hierarchy\Environment\Ambience\Shimmering Orbs		1075154
 	938373526	ambiance_lac_glacé_hiver	C:\Users\Propriétaire\Desktop\Session Wwise - Nano Projet 1\.cache\Windows\SFX\ambiance_lac_glacé_hiver_B587EF35.wem		\Actor-Mixer Hierarchy\Environment\Ambience\ambiance_lac_glacé_hiver		879363
 	958299482	Combat_rapproché_phase_2_loop_2	C:\Users\Propriétaire\Desktop\Session Wwise - Nano Projet 1\.cache\Windows\SFX\Combat_rapproché_phase_2_loop_2_B587EF35.wem		\Interactive Music Hierarchy\Interactive_Music\Music\[01] Introduction\Combat_rapproché_phase_2_loop_2\Combat_rapproché_phase_2_loop_2		365792
+	973771924	Anim_Deplacement_Impair_Variation_1	C:\Users\Propriétaire\Desktop\Session Wwise - Nano Projet 1\.cache\Windows\SFX\Anim_Deplacement_Impair_Variation_1_10C4C929.wem		\Actor-Mixer Hierarchy\Character\Deplacements\Impair_Anim_partie_2\Anim_Deplacement_Impair_Variation_1		208076
 	1037076125	Dash Sound_Grave	C:\Users\Propriétaire\Desktop\Session Wwise - Nano Projet 1\.cache\Windows\SFX\Dash Sound_10C4C929.wem		\Actor-Mixer Hierarchy\Character\Dash_attack\Dash Sound_Grave		266304
 
