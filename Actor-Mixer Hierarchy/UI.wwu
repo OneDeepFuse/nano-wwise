@@ -20,19 +20,6 @@
 						</Reference>
 					</ReferenceList>
 				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="Game_Over" ID="{989C6578-6877-43F8-944D-F4E8CC15FCDA}" ShortID="38412026">
-					<PropertyList>
-						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D7EA0F75-9AB5-4A81-B225-E3342CA55311}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
-						</Reference>
-					</ReferenceList>
-				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Pause_Menu" ID="{DCB08626-01A1-4E72-80B5-ABE3646D237C}" ShortID="398274716">
 					<PropertyList>
 						<Property Name="RandomOrSequence" Type="int16" Value="0"/>

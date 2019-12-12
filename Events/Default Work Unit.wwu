@@ -149,6 +149,175 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Gap_Crunch" ID="{0022628A-5F95-4B36-8C31-762E0AA65FA5}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{154D8E6D-624F-4828-8590-81A2BC163453}" ShortID="258267953">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pre_Geyser_Crunch_Gap" ID="{F2BD965F-7B36-4020-827F-A5A63AE7D667}" WorkUnitID="{AE14C397-6194-4CB4-AC29-46AC664B1122}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ice_Break_Gap" ID="{3C7BF361-6535-4A1A-8158-21FB0DA6F501}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{CE988E93-B031-4AFE-AAC0-0C58D7E0CAA5}" ShortID="1048267898">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ice_Break_Gap" ID="{A7447B62-3153-451B-AE3A-4BFE3739E802}" WorkUnitID="{AE14C397-6194-4CB4-AC29-46AC664B1122}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Attack_High" ID="{A653D21F-CA48-4F42-9799-CC1BCB5BD668}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{D6B4272D-B222-4996-9BCE-16BF56E0C107}" ShortID="809839436">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Attack_Fit_Kicks" ID="{CF5AEF2B-DD6A-4744-A8A4-3F264E05AC35}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Attack_Low" ID="{D46E206F-D71B-4074-AF13-94F901C38FA8}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{BAD79B8D-1A7F-490F-A57C-BD559BAE578E}" ShortID="464376381">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Attack_Crooked_Fit" ID="{6A3218C7-169D-4234-B950-52C79AA89808}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Voices" ID="{F65542EC-54B9-41C8-80D7-0905D61EA2C6}" ShortID="199785877">
+					<ChildrenList>
+						<Event Name="Voice_Fight" ID="{1D2D1FEF-02E9-4858-81F2-D7FBC216758D}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{6E126DFD-D29F-455F-ACB6-B112586B7303}" ShortID="690494393">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Fight" ID="{95878641-CBC4-4975-9C23-D94A0A20868A}" WorkUnitID="{BE02AF58-DAF9-4D7E-92D8-85BD8639B5A7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Voice_Player_1_Wins" ID="{63CC8024-8504-4694-8864-E755CD2B1B2B}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{D3448C9F-C55A-4463-BDDC-1F6E11FAD24D}" ShortID="987863398">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_01_Win" ID="{F9BFB2AC-7066-4E19-9EAA-1FA441C06D9F}" WorkUnitID="{BE02AF58-DAF9-4D7E-92D8-85BD8639B5A7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Voice_Player_2_Wins" ID="{2E8F8E3D-DB7C-4470-8A55-16929177AC9C}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{88B07444-C4CE-4DBA-AE31-AB927559169D}" ShortID="757368471">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_02_Win" ID="{378CE828-E36F-4541-9A5F-D8F4EBAAF128}" WorkUnitID="{BE02AF58-DAF9-4D7E-92D8-85BD8639B5A7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Voice_Round_1" ID="{D58E3C36-000A-42D1-8D1B-D098EF94FB37}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{A7E2625C-2614-4021-ADEA-02DECEE78F7C}" ShortID="498815697">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Round_1" ID="{42411EC8-B001-4A5D-81CB-4D65970790FE}" WorkUnitID="{BE02AF58-DAF9-4D7E-92D8-85BD8639B5A7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Voice_Round_2" ID="{C3B41AF9-C628-4532-8EC4-D829415064EB}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{B2B2693C-D467-460E-A1D1-ED1006A130DF}" ShortID="248959083">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Round_2" ID="{8CED9881-DFA9-4D93-BC77-881DCC059FFD}" WorkUnitID="{BE02AF58-DAF9-4D7E-92D8-85BD8639B5A7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Voice_Round_3" ID="{4AC6342D-BDC1-4C41-B8F0-8510EC9B607A}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{1045E693-126D-4434-BB30-3E458E58E96D}" ShortID="1004916703">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Round_3" ID="{4C81E9BD-0E2D-4979-A1F3-F222E13ED2A7}" WorkUnitID="{BE02AF58-DAF9-4D7E-92D8-85BD8639B5A7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Voice_Win" ID="{07501D11-4D51-4183-8366-038AE016FBEB}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{DD8A134C-6D9F-4E70-908B-A2AA6AD80550}" ShortID="668382300">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Win" ID="{DF55B735-A2D1-4449-A325-B207C5938D6E}" WorkUnitID="{BE02AF58-DAF9-4D7E-92D8-85BD8639B5A7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

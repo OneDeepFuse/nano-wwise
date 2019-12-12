@@ -32,16 +32,52 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Attack_Low" ID="{D46E206F-D71B-4074-AF13-94F901C38FA8}" WorkUnitID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Music" ID="{A9FE7E6F-D837-40BE-B58C-289310C1B8B0}" WorkUnitID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}"/>
 							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Gap_Crunch" ID="{0022628A-5F95-4B36-8C31-762E0AA65FA5}" WorkUnitID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Voice_Fight" ID="{1D2D1FEF-02E9-4858-81F2-D7FBC216758D}" WorkUnitID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}"/>
+							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Ambience" ID="{0AAD2860-EBD6-471F-86FD-BE057E6C5B40}" WorkUnitID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Ice_Break_Gap" ID="{3C7BF361-6535-4A1A-8158-21FB0DA6F501}" WorkUnitID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Voice_Player_2_Wins" ID="{2E8F8E3D-DB7C-4470-8A55-16929177AC9C}" WorkUnitID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Deplacements" ID="{EE03D5FC-9F6C-4C67-9195-ADF63FAE2078}" WorkUnitID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}"/>
 							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Attack_High" ID="{A653D21F-CA48-4F42-9799-CC1BCB5BD668}" WorkUnitID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Voice_Round_2" ID="{C3B41AF9-C628-4532-8EC4-D829415064EB}" WorkUnitID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Round_1" ID="{42411EC8-B001-4A5D-81CB-4D65970790FE}" WorkUnitID="{BE02AF58-DAF9-4D7E-92D8-85BD8639B5A7}"/>
+							<Position X="3" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Round_3" ID="{4C81E9BD-0E2D-4979-A1F3-F222E13ED2A7}" WorkUnitID="{BE02AF58-DAF9-4D7E-92D8-85BD8639B5A7}"/>
+							<Position X="3" Y="4"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
