@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="134">
 	<RootPaths>
-		<ProjectRoot>D:\Users\guilh\Unity\nano-wwise\</ProjectRoot>
-		<SourceFilesRoot>D:\Users\guilh\Unity\nano-wwise\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Users\guilh\Unity\nano-wwise\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Propriétaire\Desktop\Session Wwise - Nano Projet 1\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Propriétaire\Desktop\Session Wwise - Nano Projet 1\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Propriétaire\Desktop\Session Wwise - Nano Projet 1\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Users\guilh\Unity\nano-wwise\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Propriétaire\Desktop\Session Wwise - Nano Projet 1\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -23,13 +23,19 @@
 			<IncludedEvents>
 				<Event Id="85412153" Name="Ambience" ObjectPath="\Events\Default Work Unit\Ambience" DurationType="Infinite"/>
 				<Event Id="622818416" Name="Dash_Attack" ObjectPath="\Events\Default Work Unit\Dash_Attack" DurationType="OneShot" DurationMin="1.386667" DurationMax="1.386667"/>
+				<Event Id="3505314456" Name="Deplacements" ObjectPath="\Events\Default Work Unit\Deplacements" DurationType="OneShot" DurationMin="1.083396" DurationMax="1.541646"/>
+				<Event Id="2353751109" Name="Geyser_Start" ObjectPath="\Events\Default Work Unit\Geyser_Start" DurationType="OneShot" DurationMin="25.985792" DurationMax="25.985792"/>
+				<Event Id="891207143" Name="Geyser_Stop" ObjectPath="\Events\Default Work Unit\Geyser_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2227419164" Name="Music_End" ObjectPath="\Events\Default Work Unit\Music_End" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1598298728" Name="Music_menu" ObjectPath="\Events\Default Work Unit\Music_menu" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Play_Music" DurationType="Infinite"/>
-				<Event Id="799872408" Name="SFX_Deplacements" ObjectPath="\Events\Default Work Unit\SFX_Deplacements" DurationType="OneShot" DurationMin="1.083396" DurationMax="1.541646"/>
 				<Event Id="2290831937" Name="Spotlight_on" ObjectPath="\Events\Default Work Unit\Spotlight_on" DurationType="OneShot" DurationMin="1.045333" DurationMax="1.045333"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="58259256" Language="SFX">
+					<ShortName>Geyser_26_sec_time.wav</ShortName>
+					<Path>SFX\Geyser_26_sec_time_49718417.wem</Path>
+				</File>
 				<File Id="78828263" Language="SFX">
 					<ShortName>Combat_rapproché_phase_2_first.wav</ShortName>
 					<Path>SFX\Combat_rapproché_phase_2_first_B587EF35.wem</Path>

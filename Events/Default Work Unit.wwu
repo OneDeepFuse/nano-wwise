@@ -24,7 +24,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="SFX_Deplacements" ID="{EE03D5FC-9F6C-4C67-9195-ADF63FAE2078}">
+				<Event Name="Deplacements" ID="{EE03D5FC-9F6C-4C67-9195-ADF63FAE2078}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="24"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -107,6 +107,43 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Spotlight_on" ID="{B7E61542-0F7A-44EE-BAE5-9FF8AEBEF7A3}" WorkUnitID="{AE14C397-6194-4CB4-AC29-46AC664B1122}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Geyser_Start" ID="{5FEE0A58-CB60-430E-90D7-01143683B698}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{BB7C7197-6E16-45AC-8605-2BD46D18F24E}" ShortID="1011107695">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Geyser_long" ID="{84A10FD1-20E6-4BD7-88C8-6B4489D22334}" WorkUnitID="{AE14C397-6194-4CB4-AC29-46AC664B1122}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Geyser_Stop" ID="{0AFFA9D8-8361-4288-8925-0E73A746E8E9}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{5F423281-3750-43B3-B1CA-18A94CFE1B66}" ShortID="877073875">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Geyser_long" ID="{84A10FD1-20E6-4BD7-88C8-6B4489D22334}" WorkUnitID="{AE14C397-6194-4CB4-AC29-46AC664B1122}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
