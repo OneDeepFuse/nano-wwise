@@ -373,6 +373,40 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Music_Menu_And_Cinematic" ID="{231BB8EC-8C57-43FA-B7EA-DB345A0EF85A}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="16"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{D893F45E-F547-4280-A084-775C4A74CBF1}" ShortID="234406387">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Menu" ID="{60919EA1-2762-486F-9AF0-8EE4F4D8E512}" WorkUnitID="{FD747C4D-A190-499F-BBDF-3B6AFED41BA3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Music_Menu_And_Cinematic" ID="{677F4806-1ECD-4DB4-9F51-25155AFC931B}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="16"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{E5262C43-00A8-43FD-BA70-250170DE8061}" ShortID="751927348">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Menu" ID="{60919EA1-2762-486F-9AF0-8EE4F4D8E512}" WorkUnitID="{FD747C4D-A190-499F-BBDF-3B6AFED41BA3}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

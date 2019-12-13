@@ -92,7 +92,7 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Start_Combat" ID="{516C04A4-6F75-4B1A-B981-7B6CEB7A66BE}"/>
+						<CurrentSwitchRef Name="End_Combat" ID="{CEA84FB5-9D38-466D-AE2A-31C27CA77DC6}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
