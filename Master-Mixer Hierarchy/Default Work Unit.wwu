@@ -61,7 +61,28 @@
 				</Bus>
 				<Bus Name="Voices" ID="{2E409558-CABD-4A22-978A-CC808457F6E0}">
 					<PropertyList>
+						<Property Name="BusVolume" Type="Real64">
+							<ValueList>
+								<Value>6</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{B03DEE7E-A7C7-42C0-9BC5-A4B2B6F9AC5A}" WorkUnitID="{5A805907-4AC1-43DC-9CB5-D4C15DABFB11}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+				<Bus Name="Attacks" ID="{A34CF120-4068-4500-AEF0-B314C0AE2211}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>15</Value>
+							</ValueList>
+						</Property>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>

@@ -3,12 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Music_menu" ID="{0AF9B93A-A873-4417-AA28-21EE5291D18E}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="16"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-				</Event>
 				<Event Name="Ambience" ID="{0AAD2860-EBD6-471F-86FD-BE057E6C5B40}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="5"/>
@@ -24,192 +18,11 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Deplacements_J1" ID="{EE03D5FC-9F6C-4C67-9195-ADF63FAE2078}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="24"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{8D012549-FE48-49D0-A02D-702EFD1439CB}" ShortID="682622373">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Deplacements_J1" ID="{82F05E4F-84AB-4564-8A2F-00317058EC70}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Music_End" ID="{86AF2193-A8C0-4242-9440-31F8EA69625E}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="16"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{29593F61-FD85-4AB0-907F-B0D09E2D9DC2}" ShortID="36670405">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="23"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="End_Combat" ID="{CEA84FB5-9D38-466D-AE2A-31C27CA77DC6}" WorkUnitID="{B8F666C0-A129-4E51-8B39-018B5D7D18A1}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Music" ID="{A9FE7E6F-D837-40BE-B58C-289310C1B8B0}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="16"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{70450067-0A67-4E4E-BCB1-599BF6880C48}" ShortID="75121800">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Music" ID="{87AC52AC-717A-4716-9998-A19CC5434DBE}" WorkUnitID="{FD747C4D-A190-499F-BBDF-3B6AFED41BA3}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{C8C806A7-8CDB-4E6D-9B3F-621079A73E31}" ShortID="920593331">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="23"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Start_Combat" ID="{516C04A4-6F75-4B1A-B981-7B6CEB7A66BE}" WorkUnitID="{B8F666C0-A129-4E51-8B39-018B5D7D18A1}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Dash_Attack" ID="{37149E2C-0F85-436D-BF55-827AB38B6B84}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="24"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{31FF60A4-724A-47D7-A736-245CDAEB2A0D}" ShortID="914026243">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Dash_attack" ID="{0AC475C1-716F-4304-8B70-B90CCD153A8F}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Spotlight_on" ID="{11C1CE46-7375-4650-8546-8E4DF27A2730}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="17"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{A5B9E837-ABEB-47D6-9A89-8E4C1A337B20}" ShortID="763072980">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Spotlight_on" ID="{B7E61542-0F7A-44EE-BAE5-9FF8AEBEF7A3}" WorkUnitID="{AE14C397-6194-4CB4-AC29-46AC664B1122}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Geyser_Start" ID="{5FEE0A58-CB60-430E-90D7-01143683B698}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="17"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{BB7C7197-6E16-45AC-8605-2BD46D18F24E}" ShortID="1011107695">
-							<PropertyList>
-								<Property Name="FadeInCurve" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Geyser_long" ID="{84A10FD1-20E6-4BD7-88C8-6B4489D22334}" WorkUnitID="{AE14C397-6194-4CB4-AC29-46AC664B1122}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Geyser_Stop" ID="{0AFFA9D8-8361-4288-8925-0E73A746E8E9}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="17"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{5F423281-3750-43B3-B1CA-18A94CFE1B66}" ShortID="877073875">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeTime" Type="Real64" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Geyser_long" ID="{84A10FD1-20E6-4BD7-88C8-6B4489D22334}" WorkUnitID="{AE14C397-6194-4CB4-AC29-46AC664B1122}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Gap_Crunch" ID="{0022628A-5F95-4B36-8C31-762E0AA65FA5}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="17"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{154D8E6D-624F-4828-8590-81A2BC163453}" ShortID="258267953">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Pre_Geyser_Crunch_Gap" ID="{F2BD965F-7B36-4020-827F-A5A63AE7D667}" WorkUnitID="{AE14C397-6194-4CB4-AC29-46AC664B1122}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Ice_Break_Gap" ID="{3C7BF361-6535-4A1A-8158-21FB0DA6F501}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="17"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{CE988E93-B031-4AFE-AAC0-0C58D7E0CAA5}" ShortID="1048267898">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Ice_Break_Gap" ID="{A7447B62-3153-451B-AE3A-4BFE3739E802}" WorkUnitID="{AE14C397-6194-4CB4-AC29-46AC664B1122}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Attack_High" ID="{A653D21F-CA48-4F42-9799-CC1BCB5BD668}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="10"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{D6B4272D-B222-4996-9BCE-16BF56E0C107}" ShortID="809839436">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Attack_Fit_Kicks" ID="{CF5AEF2B-DD6A-4744-A8A4-3F264E05AC35}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Attack_Low" ID="{D46E206F-D71B-4074-AF13-94F901C38FA8}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="10"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{BAD79B8D-1A7F-490F-A57C-BD559BAE578E}" ShortID="464376381">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Attack_Crooked_Fit" ID="{6A3218C7-169D-4234-B950-52C79AA89808}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="Voices" ID="{F65542EC-54B9-41C8-80D7-0905D61EA2C6}" ShortID="199785877">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Event Name="Voice_Fight" ID="{1D2D1FEF-02E9-4858-81F2-D7FBC216758D}">
 							<PropertyList>
@@ -318,90 +131,390 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Event Name="Stop_Deplacements_J1" ID="{24D32330-C92A-4070-A9F2-AAF5030EC4C3}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="24"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{48AFFD36-0377-4B7A-9401-271B94BD1833}" ShortID="315388532">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
-								<Property Name="FadeTime" Type="Real64" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Deplacements_J1" ID="{82F05E4F-84AB-4564-8A2F-00317058EC70}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Deplacements_J2" ID="{42F6EDFB-6122-404C-A9F8-F1528D7CF8FF}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="24"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{B6813619-AB8F-4F95-A7E1-883966D6E1BA}" ShortID="131926959">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Deplacements_J2" ID="{C8F8DC2F-96B8-4D05-896D-A7BE0A1F6FE0}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Stop_Deplacements_J2" ID="{74527EF7-5628-4148-BB3F-7D1240811FA4}">
-					<PropertyList>
-						<Property Name="Color" Type="int16" Value="24"/>
-						<Property Name="OverrideColor" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Action Name="" ID="{56C0207D-9C17-4474-B971-60C8943B5555}" ShortID="884128643">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
-								<Property Name="FadeTime" Type="Real64" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Deplacements_J2" ID="{C8F8DC2F-96B8-4D05-896D-A7BE0A1F6FE0}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Music_Menu_And_Cinematic" ID="{231BB8EC-8C57-43FA-B7EA-DB345A0EF85A}">
+				<Folder Name="Musics" ID="{83A71CE2-22B7-457C-9D47-195DB7197C3C}" ShortID="313855381">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="16"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Action Name="" ID="{D893F45E-F547-4280-A084-775C4A74CBF1}" ShortID="234406387">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Music_Menu" ID="{60919EA1-2762-486F-9AF0-8EE4F4D8E512}" WorkUnitID="{FD747C4D-A190-499F-BBDF-3B6AFED41BA3}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Music_End" ID="{86AF2193-A8C0-4242-9440-31F8EA69625E}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="16"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{29593F61-FD85-4AB0-907F-B0D09E2D9DC2}" ShortID="36670405">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="End_Combat" ID="{CEA84FB5-9D38-466D-AE2A-31C27CA77DC6}" WorkUnitID="{B8F666C0-A129-4E51-8B39-018B5D7D18A1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Music" ID="{A9FE7E6F-D837-40BE-B58C-289310C1B8B0}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="16"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{70450067-0A67-4E4E-BCB1-599BF6880C48}" ShortID="75121800">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music" ID="{87AC52AC-717A-4716-9998-A19CC5434DBE}" WorkUnitID="{FD747C4D-A190-499F-BBDF-3B6AFED41BA3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C8C806A7-8CDB-4E6D-9B3F-621079A73E31}" ShortID="920593331">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Start_Combat" ID="{516C04A4-6F75-4B1A-B981-7B6CEB7A66BE}" WorkUnitID="{B8F666C0-A129-4E51-8B39-018B5D7D18A1}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Music_Menu_And_Cinematic" ID="{231BB8EC-8C57-43FA-B7EA-DB345A0EF85A}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="16"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{D893F45E-F547-4280-A084-775C4A74CBF1}" ShortID="234406387">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Menu" ID="{60919EA1-2762-486F-9AF0-8EE4F4D8E512}" WorkUnitID="{FD747C4D-A190-499F-BBDF-3B6AFED41BA3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Music_Menu_And_Cinematic" ID="{677F4806-1ECD-4DB4-9F51-25155AFC931B}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="16"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{11E062A3-2FF7-4B31-A43C-E139F373B296}" ShortID="111029170">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music_Menu" ID="{60919EA1-2762-486F-9AF0-8EE4F4D8E512}" WorkUnitID="{FD747C4D-A190-499F-BBDF-3B6AFED41BA3}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
-				<Event Name="Stop_Music_Menu_And_Cinematic" ID="{677F4806-1ECD-4DB4-9F51-25155AFC931B}">
+				</Folder>
+				<Folder Name="Attacks" ID="{CF9103D0-AB25-4C8D-9FD9-697356370683}" ShortID="380125009">
 					<PropertyList>
-						<Property Name="Color" Type="int16" Value="16"/>
+						<Property Name="Color" Type="int16" Value="10"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Action Name="" ID="{E5262C43-00A8-43FD-BA70-250170DE8061}" ShortID="751927348">
+						<Event Name="Attack_Low" ID="{D46E206F-D71B-4074-AF13-94F901C38FA8}">
 							<PropertyList>
-								<Property Name="FadeInCurve" Type="int16" Value="1"/>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{BAD79B8D-1A7F-490F-A57C-BD559BAE578E}" ShortID="464376381">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Attack_Crooked_Fit" ID="{6A3218C7-169D-4234-B950-52C79AA89808}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Attack_High" ID="{A653D21F-CA48-4F42-9799-CC1BCB5BD668}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="10"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{D6B4272D-B222-4996-9BCE-16BF56E0C107}" ShortID="809839436">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Attack_Fit_Kicks" ID="{CF5AEF2B-DD6A-4744-A8A4-3F264E05AC35}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Feedbacks_Attacks" ID="{3F0BC074-9888-4BF1-A49C-240F27F733A9}" ShortID="368141697">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="23"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Fit_Kick_Choc" ID="{4F844EFF-61E2-4650-98BC-0E2E32E0FD54}">
+							<ChildrenList>
+								<Action Name="" ID="{D8EFEEC7-781E-496F-881F-4F6C2FF0D263}" ShortID="324691803">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Fit_Kick_Choc" ID="{9BB3B784-D4B4-4678-A6F9-AB76EC6DC7AE}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Character" ID="{D89EA983-B32A-44AB-BB7B-93438F9B9AE0}" ShortID="995475020">
+					<Comment>Deplacements And Specific Actions (Like Dash)</Comment>
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="24"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Dash_Attack" ID="{37149E2C-0F85-436D-BF55-827AB38B6B84}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="24"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{31FF60A4-724A-47D7-A736-245CDAEB2A0D}" ShortID="914026243">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dash_Depalacement" ID="{0AC475C1-716F-4304-8B70-B90CCD153A8F}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Player_1" ID="{08C186BE-746C-484F-B280-1966910E1490}" ShortID="481454987">
+							<ChildrenList>
+								<Event Name="Play_Deplacements_J1" ID="{EE03D5FC-9F6C-4C67-9195-ADF63FAE2078}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="24"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{8D012549-FE48-49D0-A02D-702EFD1439CB}" ShortID="682622373">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Deplacements_J1" ID="{82F05E4F-84AB-4564-8A2F-00317058EC70}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_Deplacements_J1" ID="{24D32330-C92A-4070-A9F2-AAF5030EC4C3}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="24"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{48AFFD36-0377-4B7A-9401-271B94BD1833}" ShortID="315388532">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Deplacements_J1" ID="{82F05E4F-84AB-4564-8A2F-00317058EC70}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Player_2" ID="{DCD3128E-E98C-4B85-B749-85B58367CB4F}" ShortID="679586191">
+							<ChildrenList>
+								<Event Name="Play_Deplacements_J2" ID="{42F6EDFB-6122-404C-A9F8-F1528D7CF8FF}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="24"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{B6813619-AB8F-4F95-A7E1-883966D6E1BA}" ShortID="131926959">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Deplacements_J2" ID="{C8F8DC2F-96B8-4D05-896D-A7BE0A1F6FE0}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_Deplacements_J2" ID="{74527EF7-5628-4148-BB3F-7D1240811FA4}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="24"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{56C0207D-9C17-4474-B971-60C8943B5555}" ShortID="884128643">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+												<Property Name="FadeTime" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Deplacements_J2" ID="{C8F8DC2F-96B8-4D05-896D-A7BE0A1F6FE0}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Event Name="Players_Collision" ID="{11F43D58-1F79-4C24-8EEC-90BEF0FB6767}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="12"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{9D29A0B9-12C4-46D4-A8DC-3DF8DB1EBB18}" ShortID="641885998">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Players_Collision" ID="{58ECD562-FFC8-4EFF-B023-6150331E4389}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Environment" ID="{78174BFD-22D3-4790-A91F-01963E161627}" ShortID="975836133">
+					<Comment>All elements connected with the map of the game</Comment>
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Spotlight_on" ID="{11C1CE46-7375-4650-8546-8E4DF27A2730}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{A5B9E837-ABEB-47D6-9A89-8E4C1A337B20}" ShortID="763072980">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Spotlight_on" ID="{B7E61542-0F7A-44EE-BAE5-9FF8AEBEF7A3}" WorkUnitID="{AE14C397-6194-4CB4-AC29-46AC664B1122}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Geyser_Stop" ID="{0AFFA9D8-8361-4288-8925-0E73A746E8E9}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{5F423281-3750-43B3-B1CA-18A94CFE1B66}" ShortID="877073875">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Geyser_Long" ID="{84A10FD1-20E6-4BD7-88C8-6B4489D22334}" WorkUnitID="{AE14C397-6194-4CB4-AC29-46AC664B1122}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ice_Break_Gap" ID="{3C7BF361-6535-4A1A-8158-21FB0DA6F501}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{CE988E93-B031-4AFE-AAC0-0C58D7E0CAA5}" ShortID="1048267898">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ice_Break_Gap" ID="{A7447B62-3153-451B-AE3A-4BFE3739E802}" WorkUnitID="{AE14C397-6194-4CB4-AC29-46AC664B1122}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Geyser_Start" ID="{5FEE0A58-CB60-430E-90D7-01143683B698}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{BB7C7197-6E16-45AC-8605-2BD46D18F24E}" ShortID="1011107695">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Geyser_Long" ID="{84A10FD1-20E6-4BD7-88C8-6B4489D22334}" WorkUnitID="{AE14C397-6194-4CB4-AC29-46AC664B1122}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Gap_Crunch" ID="{0022628A-5F95-4B36-8C31-762E0AA65FA5}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{154D8E6D-624F-4828-8590-81A2BC163453}" ShortID="258267953">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pre_Geyser_Crunch_Gap" ID="{F2BD965F-7B36-4020-827F-A5A63AE7D667}" WorkUnitID="{AE14C397-6194-4CB4-AC29-46AC664B1122}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Edge_Bump" ID="{E25429FF-EA39-4EA4-8028-A07F62D983D4}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{FA8E5E18-961F-4F7E-A232-1818C274C26D}" ShortID="554205133">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Map_Bump_Edge" ID="{9BC973A2-20D1-41EB-BCEF-4A719DB37887}" WorkUnitID="{AE14C397-6194-4CB4-AC29-46AC664B1122}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Stop_Ambiant_Voice" ID="{69F6FF2C-DAAE-48B3-BFEC-EC1D39D58AD8}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="5"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{1EDE5E07-91A8-4291-A846-9AEB166EA5F5}" ShortID="452955037">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
 								<Property Name="FadeTime" Type="Real64" Value="4"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Music_Menu" ID="{60919EA1-2762-486F-9AF0-8EE4F4D8E512}" WorkUnitID="{FD747C4D-A190-499F-BBDF-3B6AFED41BA3}"/>
+									<ObjectRef Name="Ambiant_Thinking_Voice" ID="{268FE46C-CA99-4054-BF46-183B641DE87E}" WorkUnitID="{AE14C397-6194-4CB4-AC29-46AC664B1122}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -7,34 +7,13 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<RandomSequenceContainer Name="Map_bump_edge" ID="{BAD03026-A7C4-4DAC-BB04-96BAAA375A5D}" ShortID="59844293">
-					<PropertyList>
-						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D7EA0F75-9AB5-4A81-B225-E3342CA55311}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Environment" ID="{14689FBE-2910-4D64-8AD8-F9DDEF3B25CB}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
-						</Reference>
-					</ReferenceList>
-				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="In_Character_Collision" ID="{BE554A0C-BAA8-4BE5-8BE7-ABC1046CEA3D}" ShortID="339044549">
-					<PropertyList>
-						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D7EA0F75-9AB5-4A81-B225-E3342CA55311}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Environment" ID="{14689FBE-2910-4D64-8AD8-F9DDEF3B25CB}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
-						</Reference>
-					</ReferenceList>
-				</RandomSequenceContainer>
 				<BlendContainer Name="Spotlight_on" ID="{B7E61542-0F7A-44EE-BAE5-9FF8AEBEF7A3}" ShortID="313747842">
 					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>22</Value>
+							</ValueList>
+						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-6</Value>
@@ -107,7 +86,7 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-10</Value>
+								<Value>-15</Value>
 							</ValueList>
 							<ModifierList>
 								<ModifierInfo>
@@ -129,14 +108,11 @@
 							<PropertyList>
 								<Property Name="Highpass" Type="int16">
 									<ValueList>
-										<Value>73</Value>
+										<Value>22</Value>
 									</ValueList>
 								</Property>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Lowpass" Type="int16">
-									<ValueList>
-										<Value>21</Value>
-									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{0CC3290E-E9A8-40FB-9887-B50C1B7D9950}"/>
@@ -156,7 +132,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>7</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -183,7 +159,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
-										<Value>44</Value>
+										<Value>41</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -199,7 +175,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-2</Value>
+										<Value>2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -240,11 +216,6 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-4</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -269,7 +240,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-31</Value>
+										<Value>-35</Value>
 									</ValueList>
 									<ModifierList>
 										<ModifierInfo>
@@ -327,9 +298,317 @@
 								<ActiveSource Name="QP02 0247 Wind desert soft variable over flat lava bed" ID="{D4C6109A-9D74-43F6-A051-563EA68DA2E0}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<RandomSequenceContainer Name="Submarine_Geyser_Bass" ID="{0BD5D1DD-CE82-4C0C-8C43-CE54020968E2}" ShortID="880074747">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>35</Value>
+									</ValueList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Geyser_submarine_bass_01" ID="{4E91F736-58DC-4D34-9979-BDF00E7BB213}" ShortID="651310318">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Geyser_submarine_bass_01" ID="{D9865CFF-536E-4E6C-A10A-CA2ED058CAFD}" ShortID="614414801">
+											<Language>SFX</Language>
+											<AudioFile>Geyser_submarine_bass_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Geyser_submarine_bass_01" ID="{D9865CFF-536E-4E6C-A10A-CA2ED058CAFD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Geyser_submarine_bass_02" ID="{BC2C9C30-E64C-46D8-BB46-993E48CC69DE}" ShortID="278037954">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Geyser_submarine_bass_02" ID="{E67DCB00-477A-4A2D-8134-622DA09D689A}" ShortID="877075399">
+											<Language>SFX</Language>
+											<AudioFile>Geyser_submarine_bass_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Geyser_submarine_bass_02" ID="{E67DCB00-477A-4A2D-8134-622DA09D689A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Geyser_submarine_bass_03" ID="{63A3E876-FE5D-4C45-BB6C-27BF469C11EA}" ShortID="193610703">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Geyser_submarine_bass_03" ID="{660ACE62-A18C-4C38-9831-F668F11CA630}" ShortID="280279196">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.63712576956904"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Geyser_submarine_bass_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Geyser_submarine_bass_03" ID="{660ACE62-A18C-4C38-9831-F668F11CA630}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Geyser_submarine_bass_04" ID="{3DFC576C-DF9B-4B25-BAD8-B5B6EF223E28}" ShortID="226971874">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Geyser_submarine_bass_04" ID="{C0EDECE4-B706-4998-8C3D-B84D498F7D16}" ShortID="305176929">
+											<Language>SFX</Language>
+											<AudioFile>Geyser_submarine_bass_04.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Geyser_submarine_bass_04" ID="{C0EDECE4-B706-4998-8C3D-B84D498F7D16}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Geyser_submarine_bass_05" ID="{3165BA4B-60FB-4EB5-A132-568DAB93D607}" ShortID="330620667">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Geyser_submarine_bass_05" ID="{B38668AB-E9E2-419F-9CF5-25BBEF067B8C}" ShortID="201508571">
+											<Language>SFX</Language>
+											<AudioFile>Geyser_submarine_bass_05.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Geyser_submarine_bass_05" ID="{B38668AB-E9E2-419F-9CF5-25BBEF067B8C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Geyser_submarine_bass_06" ID="{F4C17FE3-0B3A-43E4-964F-269D4BF80E92}" ShortID="204144615">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Geyser_submarine_bass_06" ID="{09550C5C-A856-4220-B359-8EDC69644BBF}" ShortID="543607430">
+											<Language>SFX</Language>
+											<AudioFile>Geyser_submarine_bass_06.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Geyser_submarine_bass_06" ID="{09550C5C-A856-4220-B359-8EDC69644BBF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Geyser_submarine_bass_07" ID="{EC14628F-469E-43EF-840D-BDC52BE49DC8}" ShortID="599573450">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Geyser_submarine_bass_07" ID="{602CDD98-28A1-4B13-AD31-865726C88F46}" ShortID="267761467">
+											<Language>SFX</Language>
+											<AudioFile>Geyser_submarine_bass_07.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Geyser_submarine_bass_07" ID="{602CDD98-28A1-4B13-AD31-865726C88F46}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Geyser_submarine_bass_08" ID="{CC468104-7909-4348-A39B-C57644931746}" ShortID="655605418">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Geyser_submarine_bass_08" ID="{E7EEBA44-59B9-4920-A782-E9A9B10CCEF3}" ShortID="976650837">
+											<Language>SFX</Language>
+											<AudioFile>Geyser_submarine_bass_08.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Geyser_submarine_bass_08" ID="{E7EEBA44-59B9-4920-A782-E9A9B10CCEF3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Geyser_submarine_bass_09" ID="{0D2CFB6C-B143-4B16-B6EC-5AE5D5008906}" ShortID="840663438">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Geyser_submarine_bass_09" ID="{486E998F-21C9-4FA3-A81E-26E1912A05A3}" ShortID="501515682">
+											<Language>SFX</Language>
+											<AudioFile>Geyser_submarine_bass_09.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Geyser_submarine_bass_09" ID="{486E998F-21C9-4FA3-A81E-26E1912A05A3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Ambiant_Thinking_Voice" ID="{268FE46C-CA99-4054-BF46-183B641DE87E}" ShortID="43850279">
+							<PropertyList>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismInfiniteOrNumberOfLoops" Type="int16" Value="0"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoopCount" Type="int32" Value="4"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-19</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Reverb_Ambiant_voice_01" ID="{942607D8-0131-4BED-8791-59A2B46205BF}" ShortID="1050856827">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Reverb_Ambiant_voice_01" ID="{57A130EA-B3F5-4125-A085-361DDCF5BE53}" ShortID="932630553">
+											<Language>SFX</Language>
+											<AudioFile>Reverb_Ambiant_voice_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Reverb_Ambiant_voice_01" ID="{57A130EA-B3F5-4125-A085-361DDCF5BE53}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Reverb_Ambiant_voice_02" ID="{E6214A85-A61D-43AA-B4FA-4CC108366F4B}" ShortID="346946912">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Reverb_Ambiant_voice_02" ID="{A27960D0-92ED-4204-9927-D83BE187BA41}" ShortID="528769453">
+											<Language>SFX</Language>
+											<AudioFile>Reverb_Ambiant_voice_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Reverb_Ambiant_voice_02" ID="{A27960D0-92ED-4204-9927-D83BE187BA41}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Reverb_Ambiant_voice_03" ID="{77B808EF-8BC1-4976-A0B2-78E9C992680A}" ShortID="894197217">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Reverb_Ambiant_voice_03" ID="{2B034AB3-884D-465A-AEDB-C5A75D13A4F9}" ShortID="805632663">
+											<Language>SFX</Language>
+											<AudioFile>Reverb_Ambiant_voice_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Reverb_Ambiant_voice_03" ID="{2B034AB3-884D-465A-AEDB-C5A75D13A4F9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Reverb_Ambiant_voice_04" ID="{2B490ED0-948D-4DF6-A46E-B061708B3CE1}" ShortID="876050283">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Reverb_Ambiant_voice_04" ID="{E04716E0-4EBA-4F74-BB0E-38F46129D83F}" ShortID="1040918658">
+											<Language>SFX</Language>
+											<AudioFile>Reverb_Ambiant_voice_04.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Reverb_Ambiant_voice_04" ID="{E04716E0-4EBA-4F74-BB0E-38F46129D83F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="Reverb_Ambiant_voice_01" ID="{942607D8-0131-4BED-8791-59A2B46205BF}"/>
+								<ItemRef Name="Reverb_Ambiant_voice_02" ID="{E6214A85-A61D-43AA-B4FA-4CC108366F4B}"/>
+								<ItemRef Name="Reverb_Ambiant_voice_03" ID="{77B808EF-8BC1-4976-A0B2-78E9C992680A}"/>
+								<ItemRef Name="Reverb_Ambiant_voice_04" ID="{2B490ED0-948D-4DF6-A46E-B061708B3CE1}"/>
+							</Playlist>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</BlendContainer>
-				<BlendContainer Name="Geyser_long" ID="{84A10FD1-20E6-4BD7-88C8-6B4489D22334}" ShortID="287240784">
+				<BlendContainer Name="Geyser_Long" ID="{84A10FD1-20E6-4BD7-88C8-6B4489D22334}" ShortID="287240784">
 					<PropertyList>
 						<Property Name="Highpass" Type="int16">
 							<ValueList>
@@ -350,7 +629,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-10</Value>
+								<Value>-5</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -363,7 +642,7 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="Geyser_26_sec_time" ID="{4B912190-814D-48AC-B352-679B46EC1EAA}" ShortID="879739995">
+						<Sound Name="Geyser_26_sec_time_without_submarine_bass" ID="{4B912190-814D-48AC-B352-679B46EC1EAA}" ShortID="879739995">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -373,19 +652,18 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Geyser_26_sec_time" ID="{85D6908F-1F40-40FE-AB58-1CC423F4B2A2}" ShortID="58259256">
+								<AudioFileSource Name="Geyser_26_sec_time_without_submarine_bass" ID="{23B1AE91-6B69-4862-A2EC-C9A77D2448C9}" ShortID="443502246">
 									<PropertyList>
-										<Property Name="FadeInDuration" Type="Real64" Value="0.127000675713437"/>
-										<Property Name="LoopBegin" Type="Real64" Value="0.141941931679723"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.231589467477444"/>
 										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimBegin" Type="Real64" Value="0.127000675713437"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.37470014138972"/>
 									</PropertyList>
 									<Language>SFX</Language>
-									<AudioFile>Geyser_26_sec_time.wav</AudioFile>
+									<AudioFile>Geyser_26_sec_time_without_submarine_bass.wav</AudioFile>
 								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Geyser_26_sec_time" ID="{85D6908F-1F40-40FE-AB58-1CC423F4B2A2}" Platform="Linked"/>
+								<ActiveSource Name="Geyser_26_sec_time_without_submarine_bass" ID="{23B1AE91-6B69-4862-A2EC-C9A77D2448C9}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
@@ -466,6 +744,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Sound Name="Ice_Break_Gap" ID="{B9EB808D-6512-4D66-9719-7F806CF30D40}" ShortID="481056656">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -482,6 +767,60 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Ice_Break_Gap" ID="{720E81E4-1430-48FB-9CF0-3C5CE1851C90}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
+				<BlendContainer Name="Map_Bump_Edge" ID="{9BC973A2-20D1-41EB-BCEF-4A719DB37887}" ShortID="235037468">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>30</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{2CAED826-69C9-40B2-8AC1-97A447C7142D}">
+										<PropertyList>
+											<Property Name="Max" Type="Real64" Value="303"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Bump_Edge_02_02" ID="{EE525304-9BD1-42E9-BF19-368A93C3852D}" ShortID="633216957">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Bump_Edge_02_02" ID="{2ABC6A0E-34C5-453D-9671-6DD85F446BE1}" ShortID="372219517">
+									<Language>SFX</Language>
+									<AudioFile>Bump_Edge_02_02.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Bump_Edge_02_02" ID="{2ABC6A0E-34C5-453D-9671-6DD85F446BE1}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

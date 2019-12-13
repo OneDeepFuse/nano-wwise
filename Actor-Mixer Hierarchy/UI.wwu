@@ -20,9 +20,13 @@
 						</Reference>
 					</ReferenceList>
 				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="Pause_Menu" ID="{DCB08626-01A1-4E72-80B5-ABE3646D237C}" ShortID="398274716">
+				<RandomSequenceContainer Name="Action_Button" ID="{062B3179-52AC-4F97-B429-4143713FB410}" ShortID="767223637">
 					<PropertyList>
-						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -32,32 +36,84 @@
 							<ObjectRef Name="UI" ID="{D66DA459-09AB-4E3B-BCF3-9254672C9534}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
 						</Reference>
 					</ReferenceList>
-				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="Main_Menu" ID="{C1DAD04C-CF65-4D6E-BB20-92734A8A6D78}" ShortID="329481359">
-					<PropertyList>
-						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D7EA0F75-9AB5-4A81-B225-E3342CA55311}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="UI" ID="{D66DA459-09AB-4E3B-BCF3-9254672C9534}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
-						</Reference>
-					</ReferenceList>
-				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="Mouse_Deplacement" ID="{CAC18330-A03D-4887-8DE8-18239C0202DC}" ShortID="1019521939">
-					<PropertyList>
-						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D7EA0F75-9AB5-4A81-B225-E3342CA55311}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="UI" ID="{D66DA459-09AB-4E3B-BCF3-9254672C9534}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
-						</Reference>
-					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Bump_2_02" ID="{92CF26EA-A751-446C-BBBF-933AADFF81D2}" ShortID="968702775">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Bump_2_02" ID="{E7D3A972-DED1-453C-8173-826DE79F350F}" ShortID="985446483">
+									<Language>SFX</Language>
+									<AudioFile>Bump_2_02.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Bump_2_02" ID="{E7D3A972-DED1-453C-8173-826DE79F350F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Bump_1_01" ID="{A06E8ABF-982B-48AA-9961-37E2C4B407F8}" ShortID="42820196">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Bump_1_01" ID="{57D3371E-6B13-4A0F-BDC2-EAF61B62171C}" ShortID="148665168">
+									<Language>SFX</Language>
+									<AudioFile>Bump_1_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Bump_1_01" ID="{57D3371E-6B13-4A0F-BDC2-EAF61B62171C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Bump_1_02" ID="{D02B66E6-6E69-4A96-8B69-7C324D0D1582}" ShortID="558912649">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Bump_1_02" ID="{E090CB60-F7AF-429B-B3F1-C5ABE420CEC9}" ShortID="608048041">
+									<Language>SFX</Language>
+									<AudioFile>Bump_1_02.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Bump_1_02" ID="{E090CB60-F7AF-429B-B3F1-C5ABE420CEC9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Bump_2_01" ID="{00458E0D-97CA-4DFD-B2A4-68EB1E988C5A}" ShortID="239094965">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Bump_2_01" ID="{7FF54626-C7A9-4CC4-B0A7-BF2F4A38C09B}" ShortID="640149767">
+									<Language>SFX</Language>
+									<AudioFile>Bump_2_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Bump_2_01" ID="{7FF54626-C7A9-4CC4-B0A7-BF2F4A38C09B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
 				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>

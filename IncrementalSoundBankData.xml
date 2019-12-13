@@ -3,26 +3,26 @@
 	<Platform GUID="{E01FD32E-C8CB-41DE-9D60-D77FED7FF644}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="3292752855" Timestamp="1576161475"/>
-				<File Name="NanoProjet" Hash="1195295264" Timestamp="1576161475"/>
+				<File Name="Init" Hash="3964792486" Timestamp="1576279428"/>
+				<File Name="NanoProjet" Hash="1403208896" Timestamp="1576279428"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3421430904" Timestamp="1576161475"/>
+				<File Name="" Hash="3328827559" Timestamp="1576279428"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{1377147D-B37B-4520-887B-A1490206D288}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Init" Hash="2675673041" Timestamp="1576161476"/>
-				<File Name="NanoProjet" Hash="1195295264" Timestamp="1576161476"/>
+				<File Name="Init" Hash="2036283316" Timestamp="1576279431"/>
+				<File Name="NanoProjet" Hash="1403208896" Timestamp="1576279431"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="1755737678" Timestamp="1576161476"/>
+				<File Name="" Hash="3916409997" Timestamp="1576279431"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

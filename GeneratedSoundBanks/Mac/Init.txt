@@ -15,7 +15,11 @@ State	ID	Name	State Group			Notes
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	85412153	Ambience			\Default Work Unit\Ambience	
+	1229948536	Environment			\Default Work Unit\Environment	
 	1435561564	Character_Distance			\Default Work Unit\Character_Distance	
+	1551306167	UI			\Default Work Unit\UI	
+	3313685232	Voices			\Default Work Unit\Voices	
+	3768541028	Attacks			\Default Work Unit\Attacks	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Audio Devices	ID	Name	Type				Notes
