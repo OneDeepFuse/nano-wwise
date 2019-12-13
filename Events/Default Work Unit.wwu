@@ -24,7 +24,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Deplacements" ID="{EE03D5FC-9F6C-4C67-9195-ADF63FAE2078}">
+				<Event Name="Play_Deplacements_J1" ID="{EE03D5FC-9F6C-4C67-9195-ADF63FAE2078}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="24"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -33,7 +33,7 @@
 						<Action Name="" ID="{8D012549-FE48-49D0-A02D-702EFD1439CB}" ShortID="682622373">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Deplacements" ID="{82F05E4F-84AB-4564-8A2F-00317058EC70}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
+									<ObjectRef Name="Deplacements_J1" ID="{82F05E4F-84AB-4564-8A2F-00317058EC70}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -318,6 +318,61 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Stop_Deplacements_J1" ID="{24D32330-C92A-4070-A9F2-AAF5030EC4C3}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="24"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{48AFFD36-0377-4B7A-9401-271B94BD1833}" ShortID="315388532">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Deplacements_J1" ID="{82F05E4F-84AB-4564-8A2F-00317058EC70}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Deplacements_J2" ID="{42F6EDFB-6122-404C-A9F8-F1528D7CF8FF}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="24"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{B6813619-AB8F-4F95-A7E1-883966D6E1BA}" ShortID="131926959">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Deplacements_J2" ID="{C8F8DC2F-96B8-4D05-896D-A7BE0A1F6FE0}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Deplacements_J2" ID="{74527EF7-5628-4148-BB3F-7D1240811FA4}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="24"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{56C0207D-9C17-4474-B971-60C8943B5555}" ShortID="884128643">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Deplacements_J2" ID="{C8F8DC2F-96B8-4D05-896D-A7BE0A1F6FE0}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

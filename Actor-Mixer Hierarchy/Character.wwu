@@ -194,7 +194,7 @@
 						</Reference>
 					</ReferenceList>
 				</RandomSequenceContainer>
-				<RandomSequenceContainer Name="Deplacements" ID="{82F05E4F-84AB-4564-8A2F-00317058EC70}" ShortID="1013214685">
+				<RandomSequenceContainer Name="Deplacements_J1" ID="{82F05E4F-84AB-4564-8A2F-00317058EC70}" ShortID="1013214685">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="15"/>
 						<Property Name="Highpass" Type="int16">
@@ -457,6 +457,124 @@
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
 						</Reference>
 					</ReferenceList>
+				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="Deplacements_J2" ID="{C8F8DC2F-96B8-4D05-896D-A7BE0A1F6FE0}" ShortID="135145207">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="15"/>
+						<Property Name="Highpass" Type="int16">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{7DA7F941-5477-47B0-AC19-A1B387551205}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="20"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{EB466FE2-22AC-4556-99C2-F3F8298A2819}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="20"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D7EA0F75-9AB5-4A81-B225-E3342CA55311}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Character_Distance" ID="{B3945CF4-E933-4CEA-AD72-B9D768A34C83}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Pair_Anim_partie_1" ID="{694C858E-A210-4888-98EC-480D554BFEA6}" ShortID="500709856">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D7EA0F75-9AB5-4A81-B225-E3342CA55311}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Anim_Deplacement_Pair_Variation_1" ID="{018A32ED-970A-4644-9912-903F8A7CADEE}" ShortID="400222243">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Anim_Deplacement_Pair_Variation_1" ID="{BC91F2CA-88B1-41DE-BA96-564A73C11CD7}" ShortID="130240601">
+											<Language>SFX</Language>
+											<AudioFile>Anim_Deplacement_Pair_Variation_1.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="278632071"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Anim_Deplacement_Pair_Variation_1" ID="{BC91F2CA-88B1-41DE-BA96-564A73C11CD7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Impair_Anim_partie_2" ID="{9E5FBADA-6D6A-428D-99B5-9FCC5E6EB426}" ShortID="868411038">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D7EA0F75-9AB5-4A81-B225-E3342CA55311}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Anim_Deplacement_Impair_Variation_1" ID="{1A372F43-77B4-46C9-A7C1-95D7881D9793}" ShortID="581467263">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Anim_Deplacement_Impair_Variation_1" ID="{B7BE478F-D1D8-46FD-9CEF-91BA38225CB2}" ShortID="72898660">
+											<Language>SFX</Language>
+											<AudioFile>Anim_Deplacement_Impair_Variation_1.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="973771924"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Anim_Deplacement_Impair_Variation_1" ID="{B7BE478F-D1D8-46FD-9CEF-91BA38225CB2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<Playlist>
+						<ItemRef Name="Pair_Anim_partie_1" ID="{694C858E-A210-4888-98EC-480D554BFEA6}"/>
+						<ItemRef Name="Impair_Anim_partie_2" ID="{9E5FBADA-6D6A-428D-99B5-9FCC5E6EB426}"/>
+					</Playlist>
 				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>

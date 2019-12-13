@@ -397,6 +397,12 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Geyser_26_sec_time" ID="{85D6908F-1F40-40FE-AB58-1CC423F4B2A2}" ShortID="58259256">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.127000675713437"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.141941931679723"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.127000675713437"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Geyser_26_sec_time.wav</AudioFile>
 								</AudioFileSource>

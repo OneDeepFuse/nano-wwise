@@ -60,7 +60,7 @@
 							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Deplacements" ID="{EE03D5FC-9F6C-4C67-9195-ADF63FAE2078}" WorkUnitID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}"/>
+							<ObjectRef Name="Play_Deplacements_J1" ID="{EE03D5FC-9F6C-4C67-9195-ADF63FAE2078}" WorkUnitID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}"/>
 							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
