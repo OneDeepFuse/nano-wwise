@@ -45,6 +45,9 @@ Switch	ID	Name	Switch Group			Notes
 	1658298262	Start_Combat	Switch_Music			
 	4195088783	End_Combat	Switch_Music			
 
+Effect plug-ins	ID	Name	Type				Notes
+	506891147	Plate_Small	Wwise RoomVerb			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	3909051	Attaque_High_01	C:\Users\Propriétaire\Desktop\Session Wwise - Nano Projet 1\.cache\Windows\SFX\Attaque_High_with_effects_10C4C929.wem		\Actor-Mixer Hierarchy\Character\Attacks\Attack_Fit_Kicks\Attaque_High_01		110396
 	13720595	You_Win_04	C:\Users\Propriétaire\Desktop\Session Wwise - Nano Projet 1\.cache\Windows\SFX\You_Win_04_49718417.wem		\Actor-Mixer Hierarchy\Voices\Win\You_Win\You_Win_04		27076
