@@ -113,6 +113,27 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Break_Ice_When_Character_Are_Ready" ID="{A6233C56-752C-4A01-BBB2-3F8CD28F4D1C}" ShortID="853392038">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Break_Ice_When_Character_Are_Ready" ID="{A2E5E915-14ED-4322-98F3-6F1E9D217A08}" ShortID="458035480">
+											<Language>SFX</Language>
+											<AudioFile>Break_Ice_When_Character_Are_Ready.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Break_Ice_When_Character_Are_Ready" ID="{A2E5E915-14ED-4322-98F3-6F1E9D217A08}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</BlendContainer>
 						<BlendContainer Name="Ice_Skates_Slide_Player_1" ID="{3177F957-BC03-46D4-B307-ED826DA431DA}" ShortID="299740477">
 							<ReferenceList>
@@ -123,6 +144,27 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Ice_Skates_Slide_Player_1" ID="{A890FDC9-34B0-4F2E-A088-D71AFE272B24}" ShortID="206023773">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ice_Skates_Slide_Player_1" ID="{4D3AA530-DC25-4A3D-A2DC-7D813DA153D1}" ShortID="151395274">
+											<Language>SFX</Language>
+											<AudioFile>Ice_Skates_Slide_Player_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ice_Skates_Slide_Player_1" ID="{4D3AA530-DC25-4A3D-A2DC-7D813DA153D1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</BlendContainer>
 						<BlendContainer Name="Ice_Skates_Slide_Player_2" ID="{6883A063-D1E5-444D-9F0F-B90F1F50E2E4}" ShortID="803482888">
 							<ReferenceList>
@@ -133,6 +175,27 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Ice_Skates_Slide_Player_2" ID="{28A580D4-5F0F-48A7-BF1B-F5209347A70F}" ShortID="281398211">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ice_Skates_Slide_Player_2" ID="{7DF2079E-1EEC-4EFF-A438-9CB23B29545F}" ShortID="585835700">
+											<Language>SFX</Language>
+											<AudioFile>Ice_Skates_Slide_Player_2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ice_Skates_Slide_Player_2" ID="{7DF2079E-1EEC-4EFF-A438-9CB23B29545F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</BlendContainer>
 						<BlendContainer Name="Transition_Break_Ice_And_Wind" ID="{E8F1A703-77B2-46F7-9567-5688C5243279}" ShortID="465998326">
 							<ReferenceList>
@@ -143,6 +206,27 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Transition_Break_Ice_And_Wind" ID="{1831067E-CFF1-446F-993F-E5559C9EF659}" ShortID="1031506575">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Transition_Break_Ice_And_Wind" ID="{C7AF62CF-B707-4C5F-8E54-7E394EB6A6BA}" ShortID="956742225">
+											<Language>SFX</Language>
+											<AudioFile>Transition_Break_Ice_And_Wind.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Transition_Break_Ice_And_Wind" ID="{C7AF62CF-B707-4C5F-8E54-7E394EB6A6BA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 						</BlendContainer>
 					</ChildrenList>
 				</Folder>

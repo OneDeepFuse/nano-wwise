@@ -24,7 +24,7 @@
 				<Event Id="85412153" Name="Ambience" ObjectPath="\Events\Default Work Unit\Ambience" DurationType="Infinite"/>
 				<Event Id="1734322172" Name="Attack_High" ObjectPath="\Events\Default Work Unit\Attacks\Attack_High" DurationType="OneShot" DurationMin="0.574646" DurationMax="0.574646"/>
 				<Event Id="3349596862" Name="Attack_Low" ObjectPath="\Events\Default Work Unit\Attacks\Attack_Low" DurationType="OneShot" DurationMin="1.003500" DurationMax="1.003500"/>
-				<Event Id="1820204126" Name="Break_Ice_When_Character_Are_Ready" ObjectPath="\Events\Default Work Unit\UI\Break_Ice_When_Character_Are_Ready" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1820204126" Name="Break_Ice_When_Character_Are_Ready" ObjectPath="\Events\Default Work Unit\UI\Break_Ice_When_Character_Are_Ready" DurationType="OneShot" DurationMin="1.554896" DurationMax="1.554896"/>
 				<Event Id="622818416" Name="Dash_Attack" ObjectPath="\Events\Default Work Unit\Character\Dash_Attack" DurationType="OneShot" DurationMin="1.386667" DurationMax="1.386667"/>
 				<Event Id="2553873" Name="Edge_Bump" ObjectPath="\Events\Default Work Unit\Environment\Edge_Bump" DurationType="OneShot" DurationMin="0.475792" DurationMax="0.475792"/>
 				<Event Id="868143001" Name="Fit_Kick_Choc" ObjectPath="\Events\Default Work Unit\Feedbacks_Attacks\Fit_Kick_Choc" DurationType="OneShot" DurationMin="1.166771" DurationMax="1.166771"/>
@@ -32,8 +32,8 @@
 				<Event Id="2353751109" Name="Geyser_Start" ObjectPath="\Events\Default Work Unit\Environment\Geyser_Start" DurationType="OneShot" DurationMin="15.504017" DurationMax="24.611092"/>
 				<Event Id="891207143" Name="Geyser_Stop" ObjectPath="\Events\Default Work Unit\Environment\Geyser_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3126391515" Name="Ice_Break_Gap" ObjectPath="\Events\Default Work Unit\Environment\Ice_Break_Gap" DurationType="OneShot" DurationMin="4.194625" DurationMax="4.194625"/>
-				<Event Id="1465771378" Name="Ice_Skates_Slide_Player_1" ObjectPath="\Events\Default Work Unit\UI\Ice_Skates_Slide_Player_1" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1465771377" Name="Ice_Skates_Slide_Player_2" ObjectPath="\Events\Default Work Unit\UI\Ice_Skates_Slide_Player_2" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1465771378" Name="Ice_Skates_Slide_Player_1" ObjectPath="\Events\Default Work Unit\UI\Ice_Skates_Slide_Player_1" DurationType="OneShot" DurationMin="1.015604" DurationMax="1.015604"/>
+				<Event Id="1465771377" Name="Ice_Skates_Slide_Player_2" ObjectPath="\Events\Default Work Unit\UI\Ice_Skates_Slide_Player_2" DurationType="OneShot" DurationMin="1.394292" DurationMax="1.394292"/>
 				<Event Id="2227419164" Name="Music_End" ObjectPath="\Events\Default Work Unit\Musics\Music_End" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3145578314" Name="Play_Deplacement_01" ObjectPath="\Events\Default Work Unit\Character\Deplacements\Play_Deplacement_01" DurationType="OneShot" DurationMin="1.541646" DurationMax="1.541646"/>
 				<Event Id="3145578313" Name="Play_Deplacement_02" ObjectPath="\Events\Default Work Unit\Character\Deplacements\Play_Deplacement_02" DurationType="OneShot" DurationMin="1.083396" DurationMax="1.083396"/>
@@ -48,7 +48,7 @@
 				<Event Id="59341068" Name="Stop_Deplacement_01" ObjectPath="\Events\Default Work Unit\Character\Deplacements\Stop_Deplacement_01" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="59341071" Name="Stop_Deplacement_02" ObjectPath="\Events\Default Work Unit\Character\Deplacements\Stop_Deplacement_02" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3346520329" Name="Stop_Music_Menu_And_Cinematic" ObjectPath="\Events\Default Work Unit\Musics\Stop_Music_Menu_And_Cinematic" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1543691903" Name="Transition_Break_Ice_And_Wind" ObjectPath="\Events\Default Work Unit\UI\Transition_Break_Ice_And_Wind" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1543691903" Name="Transition_Break_Ice_And_Wind" ObjectPath="\Events\Default Work Unit\UI\Transition_Break_Ice_And_Wind" DurationType="OneShot" DurationMin="2.209771" DurationMax="2.209771"/>
 				<Event Id="698935911" Name="UI_Action_Button" ObjectPath="\Events\Default Work Unit\UI_Action_Button" DurationType="OneShot" DurationMin="1.595292" DurationMax="1.608812"/>
 				<Event Id="97310432" Name="Voice_Attack" ObjectPath="\Events\Default Work Unit\Attack_Voice\Voice_Attack" DurationType="OneShot" DurationMin="0.909375" DurationMax="1.662458"/>
 				<Event Id="2203153607" Name="Voice_Damage" ObjectPath="\Events\Default Work Unit\Attack_Voice\Voice_Damage" DurationType="OneShot" DurationMin="1.181229" DurationMax="1.620000"/>
@@ -112,6 +112,10 @@
 				<File Id="148665168" Language="SFX">
 					<ShortName>Bump_1_01.wav</ShortName>
 					<Path>SFX\Bump_1_01_10C4C929.wem</Path>
+				</File>
+				<File Id="151395274" Language="SFX">
+					<ShortName>Ice_Skates_Slide_Player_1.wav</ShortName>
+					<Path>SFX\Ice_Skates_Slide_Player_1_49718417.wem</Path>
 				</File>
 				<File Id="162119535" Language="SFX">
 					<ShortName>Player_Death_Fall.wav</ShortName>
@@ -249,6 +253,10 @@
 					<ShortName>Victory.wav</ShortName>
 					<Path>SFX\Victory_49718417.wem</Path>
 				</File>
+				<File Id="458035480" Language="SFX">
+					<ShortName>Break_Ice_When_Character_Are_Ready.wav</ShortName>
+					<Path>SFX\Break_Ice_When_Character_Are_Ready_49718417.wem</Path>
+				</File>
 				<File Id="462122217" Language="SFX">
 					<ShortName>Damage_Voice_03.wav</ShortName>
 					<Path>SFX\Damage_Voice_03_49718417.wem</Path>
@@ -300,6 +308,10 @@
 				<File Id="569674290" Language="SFX">
 					<ShortName>Fight_04.wav</ShortName>
 					<Path>SFX\Fight_04_49718417.wem</Path>
+				</File>
+				<File Id="585835700" Language="SFX">
+					<ShortName>Ice_Skates_Slide_Player_2.wav</ShortName>
+					<Path>SFX\Ice_Skates_Slide_Player_2_49718417.wem</Path>
 				</File>
 				<File Id="589493190" Language="SFX">
 					<ShortName>Ice_Break_Gap.wav</ShortName>
@@ -452,6 +464,10 @@
 				<File Id="949324675" Language="SFX">
 					<ShortName>Player_Win_01_01.wav</ShortName>
 					<Path>SFX\Player_Win_01_01_49718417.wem</Path>
+				</File>
+				<File Id="956742225" Language="SFX">
+					<ShortName>Transition_Break_Ice_And_Wind.wav</ShortName>
+					<Path>SFX\Transition_Break_Ice_And_Wind_49718417.wem</Path>
 				</File>
 				<File Id="958299482" Language="SFX">
 					<ShortName>Combat_rapproché_phase_2_loop_2.wav</ShortName>
