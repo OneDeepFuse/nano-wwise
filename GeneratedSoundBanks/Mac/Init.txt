@@ -15,6 +15,7 @@ State	ID	Name	State Group			Notes
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	85412153	Ambience			\Default Work Unit\Ambience	
+	301651652	Player_Voices			\Default Work Unit\Player_Voices	
 	1229948536	Environment			\Default Work Unit\Environment	
 	1435561564	Character_Distance			\Default Work Unit\Character_Distance	
 	1551306167	UI			\Default Work Unit\UI	

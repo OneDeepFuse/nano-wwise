@@ -602,6 +602,58 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="UI" ID="{8314C8B2-ECC9-4383-9299-8EEB6BAB3EDC}" ShortID="924015414">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="15"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Break_Ice_When_Character_Are_Ready" ID="{07C6ECEF-20CC-4CFB-9D97-7B9E63A786EF}">
+							<ChildrenList>
+								<Action Name="" ID="{85CE099B-E02F-44AF-A25D-D468918F1F81}" ShortID="827427472">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Break_Ice_When_Character_Are_Ready" ID="{0C8D1535-4F34-4AD2-9AF0-57DE1550E299}" WorkUnitID="{5443D3BC-5B21-4984-B003-2A9804103E2F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ice_Skates_Slide_Player_1" ID="{74EEEFC0-F64C-42B6-A640-25E08EB4CCAB}">
+							<ChildrenList>
+								<Action Name="" ID="{C86A61BB-C08A-41A7-B3C6-46C22B0E26A4}" ShortID="454350302">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ice_Skates_Slide_Player_1" ID="{3177F957-BC03-46D4-B307-ED826DA431DA}" WorkUnitID="{5443D3BC-5B21-4984-B003-2A9804103E2F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ice_Skates_Slide_Player_2" ID="{FFDCC5EA-BB30-41F0-9513-4AF50EE7996C}">
+							<ChildrenList>
+								<Action Name="" ID="{E35F8E84-FCAA-4C46-961D-4EA3AA623407}" ShortID="912669680">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ice_Skates_Slide_Player_2" ID="{6883A063-D1E5-444D-9F0F-B90F1F50E2E4}" WorkUnitID="{5443D3BC-5B21-4984-B003-2A9804103E2F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Transition_Break_Ice_And_Wind" ID="{087B7AE6-A9D1-4E1E-B42F-A3B95AE4B61E}">
+							<ChildrenList>
+								<Action Name="" ID="{2F0C6D62-57F4-484D-B020-DA857DC8F1D6}" ShortID="308268829">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Transition_Break_Ice_And_Wind" ID="{E8F1A703-77B2-46F7-9567-5688C5243279}" WorkUnitID="{5443D3BC-5B21-4984-B003-2A9804103E2F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
