@@ -6,6 +6,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	552777022	Voice_Win			\Default Work Unit\Voices\Voice_Win	
 	555004839	Voice_Player_1_Wins			\Default Work Unit\Voices\Voice_Player_1_Wins	
 	622818416	Dash_Attack			\Default Work Unit\Character\Dash_Attack	
+	698935911	UI_Action_Button			\Default Work Unit\UI_Action_Button	
 	868143001	Fit_Kick_Choc			\Default Work Unit\Feedbacks_Attacks\Fit_Kick_Choc	
 	891207143	Geyser_Stop			\Default Work Unit\Environment\Geyser_Stop	
 	929594320	Stop_Deplacements_J2			\Default Work Unit\Character\Player_2\Stop_Deplacements_J2	

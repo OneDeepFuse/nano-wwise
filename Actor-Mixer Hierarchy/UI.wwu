@@ -7,19 +7,6 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<RandomSequenceContainer Name="Health_Bar_Damage_Reduction" ID="{EA7A2BA0-F76C-473B-80E0-027A6C109F49}" ShortID="125431249">
-					<PropertyList>
-						<Property Name="RandomOrSequence" Type="int16" Value="0"/>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D7EA0F75-9AB5-4A81-B225-E3342CA55311}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="UI" ID="{D66DA459-09AB-4E3B-BCF3-9254672C9534}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
-						</Reference>
-					</ReferenceList>
-				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="Action_Button" ID="{062B3179-52AC-4F97-B429-4143713FB410}" ShortID="767223637">
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">

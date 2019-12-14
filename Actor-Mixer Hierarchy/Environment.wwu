@@ -780,7 +780,7 @@
 						</Property>
 						<Property Name="Lowpass" Type="int16">
 							<ValueList>
-								<Value>30</Value>
+								<Value>40</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Pitch" Type="int32">
@@ -793,6 +793,11 @@
 									</Modifier>
 								</ModifierInfo>
 							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>1.6</Value>
+							</ValueList>
 						</Property>
 					</PropertyList>
 					<ReferenceList>
@@ -824,6 +829,20 @@
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
+				</BlendContainer>
+				<BlendContainer Name="Player_Frozen_Geyser_Bump" ID="{43BD5D30-1DE0-450D-91AB-44FECCCC0960}" ShortID="832474984">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="17"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D7EA0F75-9AB5-4A81-B225-E3342CA55311}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+						</Reference>
+					</ReferenceList>
 				</BlendContainer>
 			</ChildrenList>
 		</WorkUnit>

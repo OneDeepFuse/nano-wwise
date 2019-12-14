@@ -4,6 +4,10 @@
 		<WorkUnit Name="Default Work Unit" ID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="1"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{B03DEE7E-A7C7-42C0-9BC5-A4B2B6F9AC5A}" WorkUnitID="{5A805907-4AC1-43DC-9CB5-D4C15DABFB11}"/>
@@ -81,6 +85,22 @@
 						<Property Name="Lowpass" Type="int16">
 							<ValueList>
 								<Value>15</Value>
+							</ValueList>
+						</Property>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{B03DEE7E-A7C7-42C0-9BC5-A4B2B6F9AC5A}" WorkUnitID="{5A805907-4AC1-43DC-9CB5-D4C15DABFB11}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+				<Bus Name="Player_Voices" ID="{26A8F9E6-64A4-436E-A2BE-A569A9BC834C}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>35</Value>
 							</ValueList>
 						</Property>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>

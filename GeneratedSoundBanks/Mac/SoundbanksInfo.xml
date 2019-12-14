@@ -42,6 +42,7 @@
 				<Event Id="929594323" Name="Stop_Deplacements_J1" ObjectPath="\Events\Default Work Unit\Character\Player_1\Stop_Deplacements_J1" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="929594320" Name="Stop_Deplacements_J2" ObjectPath="\Events\Default Work Unit\Character\Player_2\Stop_Deplacements_J2" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3346520329" Name="Stop_Music_Menu_And_Cinematic" ObjectPath="\Events\Default Work Unit\Musics\Stop_Music_Menu_And_Cinematic" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="698935911" Name="UI_Action_Button" ObjectPath="\Events\Default Work Unit\UI_Action_Button" DurationType="OneShot" DurationMin="1.595292" DurationMax="1.608812"/>
 				<Event Id="2224959990" Name="Voice_Fight" ObjectPath="\Events\Default Work Unit\Voices\Voice_Fight" DurationType="OneShot" DurationMin="1.003771" DurationMax="1.576458"/>
 				<Event Id="555004839" Name="Voice_Player_1_Wins" ObjectPath="\Events\Default Work Unit\Voices\Voice_Player_1_Wins" DurationType="OneShot" DurationMin="3.307750" DurationMax="4.011521"/>
 				<Event Id="934231090" Name="Voice_Player_2_Wins" ObjectPath="\Events\Default Work Unit\Voices\Voice_Player_2_Wins" DurationType="OneShot" DurationMin="4.432646" DurationMax="4.432646"/>

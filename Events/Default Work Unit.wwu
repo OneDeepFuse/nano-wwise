@@ -275,6 +275,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Punchs" ID="{0D7D4851-CE4C-4CEF-AB13-93E99F12665A}">
+							<ChildrenList>
+								<Action Name="" ID="{5D47DF6F-CA24-4535-94C9-ECDE7E2A0409}" ShortID="47882450">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Punchs" ID="{37619A75-3F99-4769-ABCC-A9EF54E68DAA}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Character" ID="{D89EA983-B32A-44AB-BB7B-93438F9B9AE0}" ShortID="995475020">
@@ -387,6 +398,21 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Players_Collision" ID="{58ECD562-FFC8-4EFF-B023-6150331E4389}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Death_Fall" ID="{16FBA940-5811-4763-BC48-7A8BC9200CF4}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="24"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{F242683D-71F5-4449-B4C7-5FA040A73364}" ShortID="889649564">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Voice_Fall" ID="{AE7B5FA2-ABC2-4037-AC88-9D5C4E260178}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -520,6 +546,62 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="UI_Action_Button" ID="{E26CF4B4-868E-426B-8C2C-7CC4636A7CE7}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="15"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{F1994849-E640-413B-8027-4EC05A159101}" ShortID="558637241">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Action_Button" ID="{062B3179-52AC-4F97-B429-4143713FB410}" WorkUnitID="{5443D3BC-5B21-4984-B003-2A9804103E2F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Attack_Voice" ID="{91A60AEB-4FBA-4A65-9B69-C9CEB9BCB530}" ShortID="1069662644">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Voice_Attack" ID="{8D780E2B-B887-4F4A-951D-DB5AB4616943}">
+							<ChildrenList>
+								<Action Name="" ID="{01C17E05-227C-419C-8C80-F1F3983823A5}" ShortID="15891223">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Attack_Voices" ID="{741AA13C-7190-4D8F-AF3C-9FAC7FA30D01}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Voice_Damage" ID="{092197B6-05F7-4D33-A4BB-93062B3670D6}">
+							<ChildrenList>
+								<Action Name="" ID="{EBDDF4A6-B802-4B06-8013-215FD6AA1E93}" ShortID="819497264">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Damage_Voices" ID="{14251E2F-3B76-4563-85B5-9DC90B36C13D}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Player_Death_Voice" ID="{9F648039-25EB-4548-BD01-3A4FFF046E9D}">
+							<ChildrenList>
+								<Action Name="" ID="{4A4BB34D-2CC0-4C9D-ACD1-C6AF2D98494B}" ShortID="917965793">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Death_Voice" ID="{2846B50B-42D3-4E33-AA7F-56C45E14F592}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
