@@ -4,12 +4,12 @@
 		<Banks>
 			<Language ID="393239870">
 				<File Name="Init" Hash="3514394730" Timestamp="1576344352"/>
-				<File Name="NanoProjet" Hash="3709974225" Timestamp="1576352303"/>
+				<File Name="NanoProjet" Hash="1582657692" Timestamp="1576352690"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3366061431" Timestamp="1576352303"/>
+				<File Name="" Hash="483293957" Timestamp="1576352690"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -17,12 +17,12 @@
 		<Banks>
 			<Language ID="393239870">
 				<File Name="Init" Hash="3613227232" Timestamp="1576344353"/>
-				<File Name="NanoProjet" Hash="3709974225" Timestamp="1576352303"/>
+				<File Name="NanoProjet" Hash="1582657692" Timestamp="1576352690"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3159596613" Timestamp="1576352303"/>
+				<File Name="" Hash="3113125783" Timestamp="1576352690"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

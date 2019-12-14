@@ -752,13 +752,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Anim_Deplacement_Impair_Variation_1" ID="{D8EF7B7E-87D4-444A-92F6-10ACB0924218}" ShortID="973771924">
+										<AudioFileSource Name="Deplacement_02" ID="{3A506783-3BBC-4E82-BB21-3A6787EAF512}" ShortID="586364047">
 											<Language>SFX</Language>
-											<AudioFile>Anim_Deplacement_Impair_Variation_1.wav</AudioFile>
+											<AudioFile>Deplacement_02.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Anim_Deplacement_Impair_Variation_1" ID="{D8EF7B7E-87D4-444A-92F6-10ACB0924218}" Platform="Linked"/>
+										<ActiveSource Name="Deplacement_02" ID="{3A506783-3BBC-4E82-BB21-3A6787EAF512}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Anim_partie_1" ID="{C035C1C9-B905-4722-90B9-2DD178F54303}" ShortID="22179237">
@@ -771,13 +771,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Anim_Deplacement_Pair_Variation_1" ID="{4237A7F3-4F02-4B23-8905-863929FCA31D}" ShortID="278632071">
+										<AudioFileSource Name="Deplacement_01" ID="{662A6845-C79C-4B38-845B-72C696B91EDC}" ShortID="468441478">
 											<Language>SFX</Language>
-											<AudioFile>Anim_Deplacement_Pair_Variation_1.wav</AudioFile>
+											<AudioFile>Deplacement_01.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Anim_Deplacement_Pair_Variation_1" ID="{4237A7F3-4F02-4B23-8905-863929FCA31D}" Platform="Linked"/>
+										<ActiveSource Name="Deplacement_01" ID="{662A6845-C79C-4B38-845B-72C696B91EDC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
