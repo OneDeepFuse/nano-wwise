@@ -780,7 +780,7 @@
 						</Property>
 						<Property Name="Lowpass" Type="int16">
 							<ValueList>
-								<Value>50</Value>
+								<Value>34</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Pitch" Type="int32">
@@ -796,7 +796,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>1.6</Value>
+								<Value>-6</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>

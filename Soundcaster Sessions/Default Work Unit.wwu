@@ -104,8 +104,20 @@
 							<Position X="3" Y="4"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Voice_Attack" ID="{8D780E2B-B887-4F4A-951D-DB5AB4616943}" WorkUnitID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Music_End" ID="{86AF2193-A8C0-4242-9440-31F8EA69625E}" WorkUnitID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}"/>
 							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Player_Death_Voice" ID="{9F648039-25EB-4548-BD01-3A4FFF046E9D}" WorkUnitID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}"/>
+							<Position X="4" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Voice_Damage" ID="{092197B6-05F7-4D33-A4BB-93062B3670D6}" WorkUnitID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}"/>
+							<Position X="5" Y="1"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
