@@ -310,9 +310,9 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Folder Name="Player_1" ID="{08C186BE-746C-484F-B280-1966910E1490}" ShortID="481454987">
+						<Folder Name="Deplacements" ID="{08C186BE-746C-484F-B280-1966910E1490}" ShortID="481454987">
 							<ChildrenList>
-								<Event Name="Play_Deplacements_J1" ID="{EE03D5FC-9F6C-4C67-9195-ADF63FAE2078}">
+								<Event Name="Play_Deplacement_01" ID="{EE03D5FC-9F6C-4C67-9195-ADF63FAE2078}">
 									<PropertyList>
 										<Property Name="Color" Type="int16" Value="24"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -321,13 +321,13 @@
 										<Action Name="" ID="{8D012549-FE48-49D0-A02D-702EFD1439CB}" ShortID="682622373">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Deplacements_J1" ID="{82F05E4F-84AB-4564-8A2F-00317058EC70}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
+													<ObjectRef Name="Anim_partie_1" ID="{C035C1C9-B905-4722-90B9-2DD178F54303}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Stop_Deplacements_J1" ID="{24D32330-C92A-4070-A9F2-AAF5030EC4C3}">
+								<Event Name="Stop_Deplacement_01" ID="{24D32330-C92A-4070-A9F2-AAF5030EC4C3}">
 									<PropertyList>
 										<Property Name="Color" Type="int16" Value="24"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
@@ -341,38 +341,19 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Deplacements_J1" ID="{82F05E4F-84AB-4564-8A2F-00317058EC70}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
+													<ObjectRef Name="Anim_partie_1" ID="{C035C1C9-B905-4722-90B9-2DD178F54303}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
 									</ChildrenList>
 								</Event>
-							</ChildrenList>
-						</Folder>
-						<Folder Name="Player_2" ID="{DCD3128E-E98C-4B85-B749-85B58367CB4F}" ShortID="679586191">
-							<ChildrenList>
-								<Event Name="Play_Deplacements_J2" ID="{42F6EDFB-6122-404C-A9F8-F1528D7CF8FF}">
+								<Event Name="Stop_Deplacement_02" ID="{9AF9F132-B46F-4936-992C-B04BF1A235FC}">
 									<PropertyList>
 										<Property Name="Color" Type="int16" Value="24"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
 									<ChildrenList>
-										<Action Name="" ID="{B6813619-AB8F-4F95-A7E1-883966D6E1BA}" ShortID="131926959">
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Deplacements_J2" ID="{C8F8DC2F-96B8-4D05-896D-A7BE0A1F6FE0}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
-									</ChildrenList>
-								</Event>
-								<Event Name="Stop_Deplacements_J2" ID="{74527EF7-5628-4148-BB3F-7D1240811FA4}">
-									<PropertyList>
-										<Property Name="Color" Type="int16" Value="24"/>
-										<Property Name="OverrideColor" Type="bool" Value="True"/>
-									</PropertyList>
-									<ChildrenList>
-										<Action Name="" ID="{56C0207D-9C17-4474-B971-60C8943B5555}" ShortID="884128643">
+										<Action Name="" ID="{4B9EDBE3-81D1-43D2-9D7C-96F50530D925}" ShortID="191034107">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="2"/>
 												<Property Name="FadeOutCurve" Type="int16" Value="1"/>
@@ -380,7 +361,22 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Deplacements_J2" ID="{C8F8DC2F-96B8-4D05-896D-A7BE0A1F6FE0}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
+													<ObjectRef Name="Anim_partie_2" ID="{603A593E-18C0-4E75-8006-C557147EC20A}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Deplacement_02" ID="{7C8866C9-A6A9-4782-AD94-6F7F75BD9E3E}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="24"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{27634EAE-5B49-4AC9-934C-278BBB9F5886}" ShortID="837149721">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Anim_partie_2" ID="{603A593E-18C0-4E75-8006-C557147EC20A}" WorkUnitID="{530FEBF3-6869-4594-A0FB-8E8F655C3087}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

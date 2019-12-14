@@ -35,8 +35,8 @@
 				<Event Id="1465771378" Name="Ice_Skates_Slide_Player_1" ObjectPath="\Events\Default Work Unit\UI\Ice_Skates_Slide_Player_1" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1465771377" Name="Ice_Skates_Slide_Player_2" ObjectPath="\Events\Default Work Unit\UI\Ice_Skates_Slide_Player_2" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2227419164" Name="Music_End" ObjectPath="\Events\Default Work Unit\Musics\Music_End" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3134751173" Name="Play_Deplacements_J1" ObjectPath="\Events\Default Work Unit\Character\Player_1\Play_Deplacements_J1" DurationType="OneShot" DurationMin="1.083396" DurationMax="1.541646"/>
-				<Event Id="3134751174" Name="Play_Deplacements_J2" ObjectPath="\Events\Default Work Unit\Character\Player_2\Play_Deplacements_J2" DurationType="OneShot" DurationMin="1.083396" DurationMax="1.541646"/>
+				<Event Id="3145578314" Name="Play_Deplacement_01" ObjectPath="\Events\Default Work Unit\Character\Deplacements\Play_Deplacement_01" DurationType="OneShot" DurationMin="1.541646" DurationMax="1.541646"/>
+				<Event Id="3145578313" Name="Play_Deplacement_02" ObjectPath="\Events\Default Work Unit\Character\Deplacements\Play_Deplacement_02" DurationType="OneShot" DurationMin="1.083396" DurationMax="1.083396"/>
 				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Musics\Play_Music" DurationType="Infinite"/>
 				<Event Id="1822637563" Name="Play_Music_Menu_And_Cinematic" ObjectPath="\Events\Default Work Unit\Musics\Play_Music_Menu_And_Cinematic" DurationType="Infinite"/>
 				<Event Id="1631631307" Name="Player_Death_Fall" ObjectPath="\Events\Default Work Unit\Character\Player_Death_Fall" DurationType="OneShot" DurationMin="1.233562" DurationMax="1.233562"/>
@@ -45,8 +45,8 @@
 				<Event Id="3991701042" Name="Punchs" ObjectPath="\Events\Default Work Unit\Feedbacks_Attacks\Punchs" DurationType="OneShot" DurationMin="0.492667" DurationMax="0.492667"/>
 				<Event Id="2290831937" Name="Spotlight_on" ObjectPath="\Events\Default Work Unit\Environment\Spotlight_on" DurationType="OneShot" DurationMin="3.093333" DurationMax="3.093333"/>
 				<Event Id="80692271" Name="Stop_Ambiant_Voice" ObjectPath="\Events\Default Work Unit\Stop_Ambiant_Voice" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="929594323" Name="Stop_Deplacements_J1" ObjectPath="\Events\Default Work Unit\Character\Player_1\Stop_Deplacements_J1" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="929594320" Name="Stop_Deplacements_J2" ObjectPath="\Events\Default Work Unit\Character\Player_2\Stop_Deplacements_J2" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="59341068" Name="Stop_Deplacement_01" ObjectPath="\Events\Default Work Unit\Character\Deplacements\Stop_Deplacement_01" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="59341071" Name="Stop_Deplacement_02" ObjectPath="\Events\Default Work Unit\Character\Deplacements\Stop_Deplacement_02" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3346520329" Name="Stop_Music_Menu_And_Cinematic" ObjectPath="\Events\Default Work Unit\Musics\Stop_Music_Menu_And_Cinematic" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1543691903" Name="Transition_Break_Ice_And_Wind" ObjectPath="\Events\Default Work Unit\UI\Transition_Break_Ice_And_Wind" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="698935911" Name="UI_Action_Button" ObjectPath="\Events\Default Work Unit\UI_Action_Button" DurationType="OneShot" DurationMin="1.595292" DurationMax="1.608812"/>
