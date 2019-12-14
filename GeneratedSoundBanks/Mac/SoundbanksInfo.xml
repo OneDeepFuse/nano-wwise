@@ -23,7 +23,7 @@
 			<IncludedEvents>
 				<Event Id="85412153" Name="Ambience" ObjectPath="\Events\Default Work Unit\Ambience" DurationType="Infinite"/>
 				<Event Id="1734322172" Name="Attack_High" ObjectPath="\Events\Default Work Unit\Attacks\Attack_High" DurationType="OneShot" DurationMin="0.574646" DurationMax="0.574646"/>
-				<Event Id="3349596862" Name="Attack_Low" ObjectPath="\Events\Default Work Unit\Attacks\Attack_Low" DurationType="OneShot" DurationMin="1.151896" DurationMax="1.151896"/>
+				<Event Id="3349596862" Name="Attack_Low" ObjectPath="\Events\Default Work Unit\Attacks\Attack_Low" DurationType="OneShot" DurationMin="1.003500" DurationMax="1.003500"/>
 				<Event Id="1820204126" Name="Break_Ice_When_Character_Are_Ready" ObjectPath="\Events\Default Work Unit\UI\Break_Ice_When_Character_Are_Ready" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="622818416" Name="Dash_Attack" ObjectPath="\Events\Default Work Unit\Character\Dash_Attack" DurationType="OneShot" DurationMin="1.386667" DurationMax="1.386667"/>
 				<Event Id="2553873" Name="Edge_Bump" ObjectPath="\Events\Default Work Unit\Environment\Edge_Bump" DurationType="OneShot" DurationMin="0.475792" DurationMax="0.475792"/>
@@ -127,7 +127,7 @@
 				</File>
 				<File Id="179461049" Language="SFX">
 					<ShortName>Attaque_Low_v2.wav</ShortName>
-					<Path>SFX\Attaque_Low_v2_49718417.wem</Path>
+					<Path>SFX\Attaque_Low_v2_EE770F1F.wem</Path>
 				</File>
 				<File Id="196186534" Language="SFX">
 					<ShortName>Round_03_01.wav</ShortName>
@@ -340,6 +340,10 @@
 				<File Id="664124855" Language="SFX">
 					<ShortName>Attack_Voice_08.wav</ShortName>
 					<Path>SFX\Attack_Voice_08_49718417.wem</Path>
+				</File>
+				<File Id="670769583" Language="SFX">
+					<ShortName>Attaque_Low_Woosh.wav</ShortName>
+					<Path>SFX\Attaque_Low_Woosh_49718417.wem</Path>
 				</File>
 				<File Id="676877655" Language="SFX">
 					<ShortName>Fin du combat.wav</ShortName>

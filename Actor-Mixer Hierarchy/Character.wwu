@@ -37,6 +37,9 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Player_Death_Shout_Mieux" ID="{E81B7369-2886-422D-88D5-3401D26860E7}" ShortID="115791293">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Player_Death_Shout_Mieux.wav</AudioFile>
 								</AudioFileSource>
@@ -283,7 +286,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Attaque_Low_v2" ID="{5A1966B2-CCFC-491E-8794-733E992B7E25}" ShortID="853270948">
+								<Sound Name="Attaque_Low_Woosh" ID="{E51B7E87-DF95-4E2A-888B-AEA00EADE2F0}" ShortID="189918538">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
@@ -293,13 +296,13 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Attaque_Low_v2" ID="{CEC164C0-75E0-4113-96BD-69984734B495}" ShortID="179461049">
+										<AudioFileSource Name="Attaque_Low_Woosh" ID="{D7073C46-CD87-454C-8FBE-44266FB96A10}" ShortID="670769583">
 											<Language>SFX</Language>
-											<AudioFile>Attaque_Low_v2.wav</AudioFile>
+											<AudioFile>Attaque_Low_Woosh.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Attaque_Low_v2" ID="{CEC164C0-75E0-4113-96BD-69984734B495}" Platform="Linked"/>
+										<ActiveSource Name="Attaque_Low_Woosh" ID="{D7073C46-CD87-454C-8FBE-44266FB96A10}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -580,6 +583,43 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<BlendContainer Name="Punch_Crooked_Fit_Attack" ID="{3CE9FA30-B7E0-4D3B-BF01-36883C4EED4B}" ShortID="53313847">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Attaque_Low_v2" ID="{5A1966B2-CCFC-491E-8794-733E992B7E25}" ShortID="853270948">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Attacks" ID="{A34CF120-4068-4500-AEF0-B314C0AE2211}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Attaque_Low_v2" ID="{CEC164C0-75E0-4113-96BD-69984734B495}" ShortID="179461049">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="7.91262659621312E-02"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.124776034786438"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.616271879128137"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Attaque_Low_v2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Attaque_Low_v2" ID="{CEC164C0-75E0-4113-96BD-69984734B495}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Moves" ID="{16F6C63A-278B-4DE3-94F3-ED6777CF7656}" ShortID="364136175">
