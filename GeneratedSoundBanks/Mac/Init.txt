@@ -19,6 +19,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	1229948536	Environment			\Default Work Unit\Environment	
 	1435561564	Character_Distance			\Default Work Unit\Character_Distance	
 	1551306167	UI			\Default Work Unit\UI	
+	2118881245	Musique_Combat			\Default Work Unit\Musique_Combat	
 	3313685232	Voices			\Default Work Unit\Voices	
 	3768541028	Attacks			\Default Work Unit\Attacks	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	

@@ -10,11 +10,6 @@
 				<MusicSwitchContainer Name="Music" ID="{87AC52AC-717A-4716-9998-A19CC5434DBE}" ShortID="584686774">
 					<PropertyList>
 						<Property Name="Tempo" Type="Real64" Value="130"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-12</Value>
-							</ValueList>
-						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -26,12 +21,15 @@
 					</ReferenceList>
 					<ChildrenList>
 						<MusicPlaylistContainer Name="[01] Introduction" ID="{369E2239-9D53-433C-B14D-1BFA4F4E9E7B}" ShortID="481411523">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D7EA0F75-9AB5-4A81-B225-E3342CA55311}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+									<ObjectRef Name="Musique_Combat" ID="{6B9E6E77-321B-4312-801F-15F39CA48149}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -985,7 +983,7 @@
 										</MusicPlaylistItem>
 										<MusicPlaylistItem Name="" ID="{69A5FADE-4EF6-4386-BAEF-2B8C9F4DC502}" ShortID="451801688">
 											<PropertyList>
-												<Property Name="PlayMode" Type="int16" Value="2"/>
+												<Property Name="PlayMode" Type="int16" Value="3"/>
 											</PropertyList>
 											<ChildrenList>
 												<MusicPlaylistItem Name="" ID="{6A58095E-CA46-460C-B034-4909D060A4B5}" ShortID="734312048">
@@ -1175,12 +1173,15 @@
 							</Playlist>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="[08] Combat_End" ID="{338DFBF9-DFC4-4A48-B70C-5E3C03BE0591}" ShortID="720658660">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D7EA0F75-9AB5-4A81-B225-E3342CA55311}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+									<ObjectRef Name="Musique_Combat" ID="{6B9E6E77-321B-4312-801F-15F39CA48149}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1222,11 +1223,72 @@
 													<ClipList>
 														<MusicClip Name="Fin du combat" ID="{91A9FB48-BCF7-4668-BB27-C7E55BCFEC1F}">
 															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="4153.84615384615"/>
 																<Property Name="EndTrimOffset" Type="Real64" Value="7394.24036281179"/>
-																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="81.2545686690419"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="-4153.84615384615"/>
 															</PropertyList>
 															<AudioSourceRef Name="Fin du combat" ID="{0772C76C-C15A-4254-A5DB-90975A9EA53E}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{79BFD541-E595-44DA-A3B8-7B4F69F09464}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>4.15385</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>7.39424036281179</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{027AB4E7-76DB-4154-B427-7E115C345FA3}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>4.15385</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>7.39424036281179</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{B0C17F81-AB11-430E-8357-D4C551103369}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>4.15385</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>7.39424036281179</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
@@ -1238,7 +1300,7 @@
 										<MusicCue Name="Exit Cue" ID="{54B1BD76-D2CF-42D7-9274-D59BEB60B177}">
 											<PropertyList>
 												<Property Name="CueType" Type="int16" Value="1"/>
-												<Property Name="TimeMs" Type="Real64" Value="5538.46153846155"/>
+												<Property Name="TimeMs" Type="Real64" Value="7384.61538461538"/>
 											</PropertyList>
 										</MusicCue>
 									</CueList>
@@ -1273,6 +1335,7 @@
 						<MusicSegment Name="Transition" ID="{486000C5-8D80-4D0A-88E6-A0EFECCCB5A3}" ShortID="958670900">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="39273.3333333333"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-3</Value>
@@ -1284,7 +1347,7 @@
 									<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+									<ObjectRef Name="Musique_Combat" ID="{6B9E6E77-321B-4312-801F-15F39CA48149}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -1402,7 +1465,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>12</Value>
+										<Value>3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

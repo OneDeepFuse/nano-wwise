@@ -56,11 +56,11 @@
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Attack_Low" ID="{D46E206F-D71B-4074-AF13-94F901C38FA8}" WorkUnitID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}"/>
+							<ObjectRef Name="Attack_High" ID="{A653D21F-CA48-4F42-9799-CC1BCB5BD668}" WorkUnitID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}"/>
 							<Position X="1" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Attack_High" ID="{A653D21F-CA48-4F42-9799-CC1BCB5BD668}" WorkUnitID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}"/>
+							<ObjectRef Name="Punchs" ID="{0D7D4851-CE4C-4CEF-AB13-93E99F12665A}" WorkUnitID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}"/>
 							<Position X="1" Y="4"/>
 						</Module>
 						<Module>
@@ -80,7 +80,7 @@
 							<Position X="2" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Voice_Win" ID="{07501D11-4D51-4183-8366-038AE016FBEB}" WorkUnitID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}"/>
+							<ObjectRef Name="Attack_Low" ID="{D46E206F-D71B-4074-AF13-94F901C38FA8}" WorkUnitID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}"/>
 							<Position X="2" Y="4"/>
 						</Module>
 						<Module>
@@ -100,7 +100,7 @@
 							<Position X="3" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Round_3" ID="{4C81E9BD-0E2D-4979-A1F3-F222E13ED2A7}" WorkUnitID="{BE02AF58-DAF9-4D7E-92D8-85BD8639B5A7}"/>
+							<ObjectRef Name="Voice_Win" ID="{07501D11-4D51-4183-8366-038AE016FBEB}" WorkUnitID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}"/>
 							<Position X="3" Y="4"/>
 						</Module>
 						<Module>
@@ -114,6 +114,10 @@
 						<Module>
 							<ObjectRef Name="Player_Death_Voice" ID="{9F648039-25EB-4548-BD01-3A4FFF046E9D}" WorkUnitID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}"/>
 							<Position X="4" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Round_3" ID="{4C81E9BD-0E2D-4979-A1F3-F222E13ED2A7}" WorkUnitID="{BE02AF58-DAF9-4D7E-92D8-85BD8639B5A7}"/>
+							<Position X="4" Y="4"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Voice_Damage" ID="{092197B6-05F7-4D33-A4BB-93062B3670D6}" WorkUnitID="{7D682A8A-F7A3-4F7C-8F95-326D88D3A924}"/>

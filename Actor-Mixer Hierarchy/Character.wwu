@@ -578,43 +578,6 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<BlendContainer Name="Punch_Crooked_Fit_Attack" ID="{3CE9FA30-B7E0-4D3B-BF01-36883C4EED4B}" ShortID="53313847">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Attaque_Low_v2" ID="{5A1966B2-CCFC-491E-8794-733E992B7E25}" ShortID="853270948">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Attacks" ID="{A34CF120-4068-4500-AEF0-B314C0AE2211}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Attaque_Low_v2" ID="{CEC164C0-75E0-4113-96BD-69984734B495}" ShortID="179461049">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="7.91262659621312E-02"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.124776034786438"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.616271879128137"/>
-											</PropertyList>
-											<Language>SFX</Language>
-											<AudioFile>Attaque_Low_v2.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Attaque_Low_v2" ID="{CEC164C0-75E0-4113-96BD-69984734B495}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</BlendContainer>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Moves" ID="{16F6C63A-278B-4DE3-94F3-ED6777CF7656}" ShortID="364136175">
@@ -738,6 +701,13 @@
 						<Folder Name="Deplacements" ID="{5E7B14A3-D75D-447D-B38A-9CAA9695C961}" ShortID="154925229">
 							<ChildrenList>
 								<Sound Name="Anim_partie_2" ID="{603A593E-18C0-4E75-8006-C557147EC20A}" ShortID="352983883">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>33</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D7EA0F75-9AB5-4A81-B225-E3342CA55311}"/>
@@ -757,6 +727,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Anim_partie_1" ID="{C035C1C9-B905-4722-90B9-2DD178F54303}" ShortID="22179237">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>33</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D7EA0F75-9AB5-4A81-B225-E3342CA55311}"/>
@@ -1006,14 +983,9 @@
 						</BlendContainer>
 						<RandomSequenceContainer Name="Punchs" ID="{37619A75-3F99-4769-ABCC-A9EF54E68DAA}" ShortID="136532538">
 							<PropertyList>
-								<Property Name="Lowpass" Type="int16">
-									<ValueList>
-										<Value>26</Value>
-									</ValueList>
-								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-2</Value>
+										<Value>-0.5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1026,30 +998,11 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Punch_01" ID="{06559C68-002E-4040-8766-610CEAAB5A06}" ShortID="745875144">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Punch_01" ID="{A028DB98-892B-41A6-84D6-BF9CFC86E949}" ShortID="842274295">
-											<Language>SFX</Language>
-											<AudioFile>Punch_01.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Punch_01" ID="{A028DB98-892B-41A6-84D6-BF9CFC86E949}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Punch_02" ID="{47A38240-6F91-4C86-8154-8489EF782409}" ShortID="732715615">
+								<BlendContainer Name="Punch" ID="{0EAABF94-5DA0-4C34-89F4-1DA8266490BC}" ShortID="954016845">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-0.5</Value>
+												<Value>-4</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1062,67 +1015,155 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Punch_02" ID="{AE7AE46B-109F-49EA-ABC3-EE2A92998873}" ShortID="530780565">
-											<Language>SFX</Language>
-											<AudioFile>Punch_02.wav</AudioFile>
-										</AudioFileSource>
+										<Sound Name="Punch_01" ID="{06559C68-002E-4040-8766-610CEAAB5A06}" ShortID="745875144">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Attacks" ID="{A34CF120-4068-4500-AEF0-B314C0AE2211}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Punch_01" ID="{A028DB98-892B-41A6-84D6-BF9CFC86E949}" ShortID="842274295">
+													<Language>SFX</Language>
+													<AudioFile>Punch_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Punch_01" ID="{A028DB98-892B-41A6-84D6-BF9CFC86E949}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Attaque_Low_v2" ID="{5A1966B2-CCFC-491E-8794-733E992B7E25}" ShortID="853270948">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Attaque_Low_v2" ID="{CEC164C0-75E0-4113-96BD-69984734B495}" ShortID="179461049">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="7.91262659621312E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.124776034786438"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.616271879128137"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Attaque_Low_v2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Attaque_Low_v2" ID="{CEC164C0-75E0-4113-96BD-69984734B495}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Punch_02" ID="{EE0B9EF6-188A-4C1C-98B8-C699C282183D}" ShortID="442727947">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>36</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Attacks" ID="{A34CF120-4068-4500-AEF0-B314C0AE2211}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Punch_01" ID="{9C29AE82-8639-4770-AE64-C6E1C64A106F}" ShortID="515162395">
+													<Language>SFX</Language>
+													<AudioFile>Punch_01.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="842274295"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Punch_01" ID="{9C29AE82-8639-4770-AE64-C6E1C64A106F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Punch_03" ID="{52E9E0C0-E354-42EC-BE1E-1F31ACB9B7BA}" ShortID="914398076">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>59</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Attacks" ID="{A34CF120-4068-4500-AEF0-B314C0AE2211}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Punch_01" ID="{C6482571-E672-4527-B553-311F660BEED9}" ShortID="640425818">
+													<Language>SFX</Language>
+													<AudioFile>Punch_01.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="842274295"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Punch_01" ID="{C6482571-E672-4527-B553-311F660BEED9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Up Air Fit Choc_v2" ID="{5AEACDF1-1F92-415B-A277-BD9288C6BB1E}" ShortID="374791186">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Attacks" ID="{A34CF120-4068-4500-AEF0-B314C0AE2211}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Up Air Fit Choc_v2" ID="{A72116AE-FE27-40DE-934A-10E9BEA46F3B}" ShortID="277359055">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="2.77435601056803E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.325216176794364"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Up Air Fit Choc_v2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Up Air Fit Choc_v2" ID="{A72116AE-FE27-40DE-934A-10E9BEA46F3B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Punch_02" ID="{AE7AE46B-109F-49EA-ABC3-EE2A92998873}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Punch_03" ID="{4485B690-5786-4D23-9028-71706D974103}" ShortID="651903742">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>2.8</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Punch_03" ID="{D11DF08D-A3DB-4219-AF09-5BFD8AC0DE0E}" ShortID="830740313">
-											<Language>SFX</Language>
-											<AudioFile>Punch_03.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Punch_03" ID="{D11DF08D-A3DB-4219-AF09-5BFD8AC0DE0E}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Punch_04" ID="{BC36B6FF-7040-4761-B5E0-B5DA9824B5D9}" ShortID="116392024">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>1.5</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Vorbis Auto Detect High" ID="{6F6A99BE-4FD1-49D3-89AF-54BE30CA1588}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DFC4B574-99C1-4123-B7CC-0EA4531DFF80}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Punch_04" ID="{8B8FB40E-88AF-4C9B-B3FC-825024B0A5CF}" ShortID="416765983">
-											<Language>SFX</Language>
-											<AudioFile>Punch_04.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Punch_04" ID="{8B8FB40E-88AF-4C9B-B3FC-825024B0A5CF}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+								</BlendContainer>
 							</ChildrenList>
 						</RandomSequenceContainer>
 					</ChildrenList>

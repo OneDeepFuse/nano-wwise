@@ -131,7 +131,7 @@
 				</File>
 				<File Id="179461049" Language="SFX">
 					<ShortName>Attaque_Low_v2.wav</ShortName>
-					<Path>SFX\Attaque_Low_v2_EE770F1F.wem</Path>
+					<Path>SFX\Attaque_Low_v2_5A42B492.wem</Path>
 				</File>
 				<File Id="196186534" Language="SFX">
 					<ShortName>Round_03_01.wav</ShortName>
@@ -168,6 +168,10 @@
 				<File Id="273631838" Language="SFX">
 					<ShortName>Fight_01.wav</ShortName>
 					<Path>SFX\Fight_01_49718417.wem</Path>
+				</File>
+				<File Id="277359055" Language="SFX">
+					<ShortName>Up Air Fit Choc_v2.wav</ShortName>
+					<Path>SFX\Up Air Fit Choc_v2_C4C7DED8.wem</Path>
 				</File>
 				<File Id="280279196" Language="SFX">
 					<ShortName>Geyser_submarine_bass_03.wav</ShortName>
@@ -233,10 +237,6 @@
 					<ShortName>Attack_Voice_01.wav</ShortName>
 					<Path>SFX\Attack_Voice_01_49718417.wem</Path>
 				</File>
-				<File Id="416765983" Language="SFX">
-					<ShortName>Punch_04.wav</ShortName>
-					<Path>SFX\Punch_04_49718417.wem</Path>
-				</File>
 				<File Id="443502246" Language="SFX">
 					<ShortName>Geyser_26_sec_time_without_submarine_bass.wav</ShortName>
 					<Path>SFX\Geyser_26_sec_time_without_submarine_bass_A1F0CA96.wem</Path>
@@ -292,10 +292,6 @@
 				<File Id="528769453" Language="SFX">
 					<ShortName>Reverb_Ambiant_voice_02.wav</ShortName>
 					<Path>SFX\Reverb_Ambiant_voice_02_49718417.wem</Path>
-				</File>
-				<File Id="530780565" Language="SFX">
-					<ShortName>Punch_02.wav</ShortName>
-					<Path>SFX\Punch_02_49718417.wem</Path>
 				</File>
 				<File Id="539152739" Language="SFX">
 					<ShortName>Introduction.wav</ShortName>
@@ -408,10 +404,6 @@
 				<File Id="826111828" Language="SFX">
 					<ShortName>Combat_rapproché_phase_1_loop_3.wav</ShortName>
 					<Path>SFX\Combat_rapproché_phase_1_loop_3_B587EF35.wem</Path>
-				</File>
-				<File Id="830740313" Language="SFX">
-					<ShortName>Punch_03.wav</ShortName>
-					<Path>SFX\Punch_03_49718417.wem</Path>
 				</File>
 				<File Id="831152742" Language="SFX">
 					<ShortName>Combat_augmentation_de_la_tension_loop_1.wav</ShortName>

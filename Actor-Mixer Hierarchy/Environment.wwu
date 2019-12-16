@@ -11,12 +11,12 @@
 					<PropertyList>
 						<Property Name="Highpass" Type="int16">
 							<ValueList>
-								<Value>22</Value>
+								<Value>11</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-9</Value>
+								<Value>-12</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -85,9 +85,6 @@
 						<Property Name="Color" Type="int16" Value="5"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-15</Value>
-							</ValueList>
 							<ModifierList>
 								<ModifierInfo>
 									<Modifier Name="" ID="{2DBC44B2-1EEF-432C-B2CD-524898E076DF}"/>
@@ -132,7 +129,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>7</Value>
+										<Value>-5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -509,7 +506,7 @@
 								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-19</Value>
+										<Value>-96</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -612,8 +609,20 @@
 					<PropertyList>
 						<Property Name="Highpass" Type="int16">
 							<ValueList>
-								<Value>24</Value>
+								<Value>16</Value>
 							</ValueList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{80B5811A-87EC-40EE-A86B-04377339C384}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="30"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
 						</Property>
 						<Property Name="Pitch" Type="int32">
 							<ModifierList>
@@ -629,7 +638,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-7</Value>
+								<Value>-3</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -670,19 +679,14 @@
 				</BlendContainer>
 				<BlendContainer Name="Pre_Geyser_Crunch_Gap" ID="{F2BD965F-7B36-4020-827F-A5A63AE7D667}" ShortID="351782289">
 					<PropertyList>
-						<Property Name="Highpass" Type="int16">
-							<ValueList>
-								<Value>25</Value>
-							</ValueList>
-						</Property>
 						<Property Name="Lowpass" Type="int16">
 							<ValueList>
-								<Value>12</Value>
+								<Value>30</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-14</Value>
+								<Value>-10</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -725,7 +729,7 @@
 						</Property>
 						<Property Name="Lowpass" Type="int16">
 							<ValueList>
-								<Value>19</Value>
+								<Value>25</Value>
 							</ValueList>
 						</Property>
 						<Property Name="Volume" Type="Real64">
